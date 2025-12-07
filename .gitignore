@@ -1,0 +1,23 @@
+# Quarto internals (cache)
+/.quarto/
+/_site/
+
+# R specific junk
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Python specific junk
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# NOTE: We intentionally are NOT ignoring the /docs folder
+# because that is the actual website that you want on GitHub.
