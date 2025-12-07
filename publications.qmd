@@ -1,0 +1,11 @@
+---
+title: "Publications"
+listing:
+  contents: publications.yaml 
+  type: default
+  sort: "date desc"
+  categories: true 
+  date-format: "YYYY"
+---
+
+Below you can find a list of my research publications and other outputs throughout my career, including peer-reviewed empirical journal articles, encyclopedia and handbook chapters,  conference papers, and dissertations, with links to full texts where available.

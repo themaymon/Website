@@ -1,0 +1,10 @@
+---
+title: "Consulting Services"
+---
+
+I offer data analysis and VR development services...
+
+## Skills
+
+- **Data Analysis:** R, Python, Bayesian Statistics
+- **VR Development:** Unity, C#

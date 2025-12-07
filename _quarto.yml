@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  resources: 
+    - "papers/"
+
+website:
+  title: "Christopher N. Maymon, Ph.D."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: consulting.qmd 
+        text: Consulting
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: Blog.qmd
+        text: Blog
+      - href: contact.qmd
+        text: Contact Me
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

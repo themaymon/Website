@@ -1,0 +1,23 @@
+{
+  "consulting.qmd": {
+    "consulting.html": "e9adbe70"
+  },
+  "about.qmd": {
+    "about.html": "b22605c1"
+  },
+  "index.qmd": {
+    "index.html": "ed44ce66"
+  },
+  "research.qmd": {
+    "research.html": "548653d9"
+  },
+  "publications.qmd": {
+    "publications.html": "19e23f27"
+  },
+  "contact.qmd": {
+    "contact.html": "328aad38"
+  },
+  "blog.qmd": {
+    "blog.html": "164784a8"
+  }
+}
