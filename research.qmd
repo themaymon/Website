@@ -1,0 +1,92 @@
+---
+title: "Research"
+subtitle: "Ecologically valid simulation science."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+My research program is driven by a single, overarching goal: **to establish a rigorous science of human behavior in simulated environments.**
+
+For decades, psychology has faced a "validity trade-off." We could study behavior in the real world (high ecological validity, low control) or in the lab (low ecological validity, high control). My work demonstrates that **Virtual Reality (VR)** allows us to break this trade-off, enabling us to study complex, high-stakes emotional experiences—like fear, awe, and disgust—without sacrificing millisecond-level experimental precision.
+
+---
+
+## Core Research Areas
+
+### 1. The Nature of Presence
+**What makes a virtual experience feel "real"?**
+
+My recent work challenges the traditional "bottom-up" view that physiological arousal drives the sense of presence. In our recent paper in *Journal of Experimental Psychology: General*, we demonstrated that **subjective fear—not physiological arousal—shapes the experience of presence**.
+
+Using a high-fidelity "Virtual Plank" simulation, we dissociated these two systems. This supports **constructionist theories of emotion** (e.g., Lisa Feldman Barrett), suggesting that "Presence" is a top-down cognitive conceptualization, not just a visceral reaction to sensory input.
+
+::: {.callout-note}
+## Key Finding
+"Presence is not just about higher resolution graphics; it is about the *meaning* the user assigns to the environment. If the brain constructs a threat narrative, the environment becomes 'real,' regardless of heart rate."
+:::
+
+### 2. Emotion Regulation Under Threat
+**How do we regulate fear when the threat feels immediate?**
+
+Traditional labs study fear using static images on a computer screen. But looking at a picture of a spider is fundamentally different from standing on a ledge 80 floors up.
+
+I use VR to induce **high-intensity threat states** in the lab. My "Virtual Plank" and "Filthy Bathroom" (Disgust) paradigms allow us to test:
+*   **Inhibitory Control:** Does fear paralyze us or speed us up? (See my work on the *Stop Signal Task* on a plank).
+*   **Reappraisal vs. Suppression:** Can you "think" your way out of fear when your visual system is screaming "danger"?
+*   **Physiological Synchrony:** How do EEG and EDA signals align with behavioral freezing?
+
+### 3. Methodological Innovation
+**Standardizing the "VR Neuroscience Lab"**
+
+A major barrier to adoption is the technical complexity of setting up a VR lab. My paper *"Launching Your VR Neuroscience Laboratory"* serves as a blueprint for other researchers. I am committed to **Open Science**:
+*   **Open Assets:** I release the Unity environments for my tasks so others can replicate them exactly.
+*   **Open Code:** Data analysis pipelines (R/Python) are shared to ensure reproducibility.
+
+---
+
+## Future Vision: The Simulation Science Lab
+
+My long-term aim is to establish a dedicated **Simulation Science Laboratory**. This facility will move beyond simple HMD setups to fully integrated **multi-modal simulation**, combining:
+
+*   **Wireless EEG & Mobile fNIRS** for neural imaging in motion.
+*   **Full-body Motion Capture** for behavioral kinematics.
+*   **Haptic Feedback** to "close the loop" of sensory immersion.
+
+This lab will not just study VR; it will use VR as a tool to understand the fundamental mechanisms of the predictive brain.
+
+---
+
+## Selected Paradigms
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### 🏔️ The Virtual Plank
+**Status:** *Published (JEP: General)*
+A high-fidelity height exposure task. Participants walk out onto a narrow plank extending from a skyscraper.
+*   **Measures:** Subjective Units of Distress (SUDS), Heart Rate Variability (HRV), Postural Sway.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🤢 The Disgust Simulation
+**Status:** *In Prep*
+A "Filthy Bathroom" VR environment designed to trigger core disgust.
+*   **Goal:** To test if disgust impacts moral decision-making and motor inhibition differently than fear.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🚀 The "Awe" Dome
+**Status:** *Ongoing (Marsden Grant)*
+A spaceship-style dome overlooking a nebula. Designed to induce "Awe"—the feeling of vastness and accommodation.
+*   **Collaboration:** Working with Gina Grimshaw to map the physiology of positive awe states.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🧠 EEG-VR Integration
+**Status:** *Methodological*
+Developing pipelines to synchronize Unity event markers with BrainVision EEG amplifiers to correct for timing latency.
+:::
+
+:::

@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Christopher Maymon">
+<meta name="dcterms.date" content="2025-05-21">
+<meta name="description" content="Why p-values are like spotting a rock in the ocean, and why we often miss the signal.">
 
-<title>Christopher N. Maymon, Ph.D.&nbsp;- Consulting Services</title>
+<title>Christopher N. Maymon, Ph.D.&nbsp;- Statistical Power &amp; The Tides</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Christopher N. Maymon, Ph.D.</span>
     </a>
   </div>
@@ -89,31 +92,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./consulting.html" aria-current="page"> 
+    <a class="nav-link" href="../../consulting.html"> 
 <span class="menu-text">Consulting</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact Me</span></a>
   </li>  
 </ul>
@@ -131,10 +134,14 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
+  <ul>
+  <li><a href="#the-rock-and-the-water" id="toc-the-rock-and-the-water" class="nav-link active" data-scroll-target="#the-rock-and-the-water">The Rock and The Water</a>
   <ul class="collapse">
-  <li><a href="#my-expertise" id="toc-my-expertise" class="nav-link active" data-scroll-target="#my-expertise">My Expertise</a></li>
-  <li><a href="#how-i-work" id="toc-how-i-work" class="nav-link" data-scroll-target="#how-i-work">How I Work</a></li>
-  <li><a href="#recent-projects" id="toc-recent-projects" class="nav-link" data-scroll-target="#recent-projects">Recent Projects</a></li>
+  <li><a href="#scenario-a-low-power-high-tide" id="toc-scenario-a-low-power-high-tide" class="nav-link" data-scroll-target="#scenario-a-low-power-high-tide">Scenario A: Low Power (High Tide)</a></li>
+  <li><a href="#scenario-b-high-power-low-tide" id="toc-scenario-b-high-power-low-tide" class="nav-link" data-scroll-target="#scenario-b-high-power-low-tide">Scenario B: High Power (Low Tide)</a></li>
+  </ul></li>
+  <li><a href="#the-big-rock-fallacy" id="toc-the-big-rock-fallacy" class="nav-link" data-scroll-target="#the-big-rock-fallacy">The “Big Rock” Fallacy</a></li>
+  <li><a href="#why-simulation-matters" id="toc-why-simulation-matters" class="nav-link" data-scroll-target="#why-simulation-matters">Why Simulation Matters</a></li>
   </ul>
 </nav>
     </div>
@@ -143,15 +150,36 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Consulting Services</h1>
-<p class="subtitle lead">Bridging the gap between code and cognition.</p>
-</div>
+<h1 class="title">Statistical Power &amp; The Tides</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Statistics</div>
+    <div class="quarto-category">Teaching</div>
+    <div class="quarto-category">Methods</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Why p-values are like spotting a rock in the ocean, and why we often miss the signal.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Christopher Maymon </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 21, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -161,105 +189,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I offer specialized consulting for academic labs, startups, and tech companies working at the intersection of human behavior and technology.</p>
-<p>Unlike generalist developers, I build systems designed for <strong>scientific validity</strong>. Unlike generalist researchers, I can implement the <strong>technical architecture</strong> required to run complex studies.</p>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Availability
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>I am currently accepting new projects for <strong>Q3/Q4 2025</strong>. <a href="./contact.html">Contact me</a> to discuss your timeline.</p>
-</div>
-</div>
+<p>One of the hardest concepts for psychology students to grasp is <strong>Statistical Power</strong>.</p>
+<p>We teach them definitions like <em>“1 - beta”</em> or <em>“the probability of rejecting the null hypothesis when it is false.”</em> These definitions are accurate, but they are intuitive dead ends. They don’t help a student visualize <em>why</em> their experiment failed.</p>
+<p>Instead, I prefer to teach Power using the metaphor of <strong>The Tides</strong>.</p>
+<section id="the-rock-and-the-water" class="level2">
+<h2 class="anchored" data-anchor-id="the-rock-and-the-water">The Rock and The Water</h2>
+<p>Imagine you are standing on a cliff looking down at a turbulent ocean. Your goal is simple: <strong>Spot the Rock.</strong></p>
+<p>In this metaphor: * <strong>The Rock</strong> is your <strong>Effect Size</strong>. It is the real phenomenon you are trying to find. * <strong>The Water</strong> is the <strong>Noise</strong> (measurement error, individual differences). * <strong>The Tide Level</strong> is your <strong>Statistical Power</strong>.</p>
+<section id="scenario-a-low-power-high-tide" class="level3">
+<h3 class="anchored" data-anchor-id="scenario-a-low-power-high-tide">Scenario A: Low Power (High Tide)</h3>
+<p>Imagine the tide is incredibly high. The water is deep and choppy. Somewhere beneath those waves, there is a rock. It is definitely there (the effect exists!), but the noise of the water is completely covering it.</p>
+<p>You look for an hour and see nothing. You conclude: <em>“There is no rock here.”</em> In statistics, we call this a <strong>Type II Error</strong> (False Negative). The rock didn’t vanish; you just lacked the power to see it through the noise.</p>
+</section>
+<section id="scenario-b-high-power-low-tide" class="level3">
+<h3 class="anchored" data-anchor-id="scenario-b-high-power-low-tide">Scenario B: High Power (Low Tide)</h3>
+<p>Now, imagine we lower the tide. The water level drops. The waves settle. Suddenly, the jagged tip of the rock breaks the surface. You didn’t make the rock bigger; you just removed the noise that was hiding it.</p>
+<p>This is what happens when we <strong>increase sample size</strong> or <strong>reduce measurement error</strong> (e.g., using a precise VR tracker instead of a stopwatch). We lower the water level so the signal becomes visible.</p>
+</section>
+</section>
+<section id="the-big-rock-fallacy" class="level2">
+<h2 class="anchored" data-anchor-id="the-big-rock-fallacy">The “Big Rock” Fallacy</h2>
+<p>Many researchers try to fix a “High Tide” problem by looking for a “Bigger Rock.”</p>
+<p>They think: <em>“If I just make my manipulation stronger (a louder noise, a scarier VR cliff), the effect will be massive, and I’ll see it even if my sample is small.”</em></p>
+<p>This works… sometimes. If the rock is a mountain, you will see it even at high tide. But most effects in psychology aren’t mountains; they are pebbles. We are looking for subtle changes in reaction time or slight shifts in emotion regulation.</p>
+<p>If you are looking for a pebble at high tide, no amount of squinting (p-hacking) will save you. You need to drain the water.</p>
+</section>
+<section id="why-simulation-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-simulation-matters">Why Simulation Matters</h2>
+<p>This is why I advocate for <strong>Simulation Science</strong>.</p>
+<p>In a traditional field study, the “weather” is unpredictable. The waves are choppy (high noise). In a Virtual Reality lab, <strong>I control the weather</strong>. I can turn off the wind. I can perfectly standardize the environment.</p>
+<p>By using VR, we are essentially building a breakwall around our study. We calm the waters, reducing the noise variance, which makes even small rocks visible.</p>
+<p>We don’t need “bigger” effects; we need calmer water.</p>
 <hr>
-<section id="my-expertise" class="level2">
-<h2 class="anchored" data-anchor-id="my-expertise">My Expertise</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">🥽 VR Development</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">📊 Data Analysis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">🔬 Experimental Design</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><strong>“I need a VR environment that is scientifically valid, not just visually pretty.”</strong></p>
-<p>I build custom Unity environments optimized for behavioral research. My focus is on <strong>Presence</strong>—ensuring participants treat the virtual world as real—and precise <strong>event timing</strong> for physiological synchronization.</p>
-<section id="services" class="level4">
-<h4 class="anchored" data-anchor-id="services">Services</h4>
-<ul>
-<li><strong>Custom Unity (C#) Development:</strong> From simple tasks to complex, interactive social simulations.</li>
-<li><strong>Sensor Integration:</strong> Synchronizing VR events with EEG, EDA (GSR), and Heart Rate data streams.</li>
-<li><strong>“Presence” Optimization:</strong> Audit of existing environments to improve immersion and reduce motion sickness.</li>
-<li><strong>Motion Capture:</strong> Implementation of full-body avatars and inverse kinematics (IK) for behavioral tracking.</li>
-</ul>
-</section>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>“I have complex, noisy data and I need a robust, reproducible analysis.”</strong></p>
-<p>I specialize in <strong>Bayesian Statistics</strong> and <strong>Multilevel Modeling</strong>, particularly for complex datasets common in psychophysiology and longitudinal studies. I don’t just run the numbers; I provide the code to ensure your results are reproducible.</p>
-<section id="services-1" class="level4">
-<h4 class="anchored" data-anchor-id="services-1">Services</h4>
-<ul>
-<li><strong>Bayesian Modeling:</strong> Implementation of JAGS/Stan models for complex hierarchical data.</li>
-<li><strong>Physiological Signal Processing:</strong> Cleaning and analyzing noisy EEG/EDA data.</li>
-<li><strong>Reproducible Pipelines:</strong> converting your manual spreadsheet workflow into an automated R or Python script.</li>
-<li><strong>Data Visualization:</strong> Publication-ready figures (ggplot2) and interactive dashboards (Shiny/Quarto).</li>
-</ul>
-</section>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p><strong>“I have a research question, but I don’t know if it’s feasible in VR.”</strong></p>
-<p>Translating a traditional lab study into VR requires navigating unique challenges: hardware limitations, motion sickness risks, and ethical constraints. I help you design studies that are rigorous, ethical, and publishable.</p>
-<section id="services-2" class="level4">
-<h4 class="anchored" data-anchor-id="services-2">Services</h4>
-<ul>
-<li><strong>Feasibility Reviews:</strong> rapid assessment of whether your research question works in VR.</li>
-<li><strong>Ethical Guidance:</strong> Assistance with ethics applications specifically for immersive fear/threat studies.</li>
-<li><strong>Pre-registration Support:</strong> Helping you define your variables and analysis plan <em>before</em> you collect data (Open Science best practices).</li>
-</ul>
-</section>
-</div>
-</div>
-</div>
-<hr>
-</section>
-<section id="how-i-work" class="level2">
-<h2 class="anchored" data-anchor-id="how-i-work">How I Work</h2>
-<p>I believe in the <strong>“Open Science”</strong> model of consulting. You don’t just get a PDF report; you get the assets, the code, and the documentation.</p>
-<section id="the-discovery-call-free" class="level3">
-<h3 class="anchored" data-anchor-id="the-discovery-call-free">1. The Discovery Call (Free)</h3>
-<p>We meet for 30 minutes to discuss your research question or technical bottleneck. I will tell you honestly if I am the right fit. * <em>Outcome:</em> A clear “Go / No-Go” decision.</p>
-</section>
-<section id="the-blueprint" class="level3">
-<h3 class="anchored" data-anchor-id="the-blueprint">2. The Blueprint</h3>
-<p>I deliver a detailed scope of work. For VR projects, this includes a “grey-box” prototype video. For analysis, this includes a mock-up of the final report. * <em>Outcome:</em> You know exactly what you are paying for.</p>
-</section>
-<section id="execution-handoff" class="level3">
-<h3 class="anchored" data-anchor-id="execution-handoff">3. Execution &amp; Handoff</h3>
-<p>I build the solution and then <strong>train you</strong> on how to use it. I provide commented code and video walkthroughs so your lab is not dependent on me forever. * <em>Outcome:</em> A sustainable tool for your research.</p>
-<hr>
-</section>
-</section>
-<section id="recent-projects" class="level2">
-<h2 class="anchored" data-anchor-id="recent-projects">Recent Projects</h2>
-<div class="grid">
-<section id="the-virtual-plank" class="level4 g-col-12 g-col-md-6">
-<h4 class="anchored" data-anchor-id="the-virtual-plank">🏔️ The Virtual Plank</h4>
-<p><strong>Client:</strong> <em>Cognitive &amp; Affective Neuroscience Lab</em> Designed a high-fidelity VR height exposure task to induce physiological fear responses without physical danger. Used for studying emotion regulation.</p>
-</section>
-<section id="disgust-induction" class="level4 g-col-12 g-col-md-6">
-<h4 class="anchored" data-anchor-id="disgust-induction">🩸 Disgust Induction</h4>
-<p><strong>Client:</strong> <em>Victoria University of Wellington</em> Created a “filthy bathroom” simulation to test disgust sensitivity. Features interactive physics and realistic audio-visual cues to maximize “sense of presence.”</p>
-</section>
-</div>
-<hr>
-<section id="ready-to-start" class="level3">
-<h3 class="anchored" data-anchor-id="ready-to-start">Ready to start?</h3>
-<p><a href="./contact.html" class="btn btn-primary btn-lg" role="button">Book a Free Discovery Call</a></p>
+<p><em>Enjoyed this metaphor? <a href="../blog.qmd">Subscribe to the newsletter</a> for more weekly thoughts on methods and mechanics.</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

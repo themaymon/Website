@@ -1,5 +1,53 @@
 ---
-title: "About"
+title: "About Me"
+about:
+  template: trestles 
+  image: "images/Christopher 05.jpg"
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:Christopher.Maymon@vuw.ac.nz
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/yourprofile
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=RjwGrqMAAAAJ
+    - icon: github
+      text: Github
+      href: https://github.com/
 ---
 
-About this site
+### The "Control" Problem
+
+My journey into Virtual Reality (VR) began with a frustration that every experimental psychologist eventually faces: **The Trade-Off.**
+
+During my PhD at Victoria University of Wellington, I was investigating *Theory of Mind*—how we understand the intentions of others. Like many before me, I found myself stuck between two imperfect choices. I could run highly controlled experiments on a computer screen (which lacked the messy reality of actual human interaction), or I could run field studies (which had "ecological validity" but were impossible to control scientifically).
+
+For years, this disconnect seemed intractable. We were studying human behavior by removing the "human" and the "behavior" from the equation.
+
+### The "Accidental" Pivot
+
+By complete chance, I stumbled upon a basic VR setup being tested in our department. I realized almost immediately that this technology wasn't just a gimmick for gamers; it was the solution to the Trade-Off.
+
+VR allowed me to place participants in "real" situations—standing at the edge of a cliff, walking a plank, or interacting with a virtual agent—while maintaining millisecond-level control over every photon of light they saw. 
+
+I pivoted my research focus entirely. I taught myself Unity and C#, not because I wanted to be a developer, but because I needed better tools to answer scientific questions. This work culminated in my research on **Presence**—understanding not just *if* people feel fear in VR, but *why* they treat virtual threats as real.
+
+### Open Science & Reproducibility
+
+As I built more complex simulations, I realized another problem: **Reproducibility.**
+
+A text-based methods section in a PDF cannot possibly capture the complexity of a VR environment. If I say "the participant stood on a ledge," how high was it? How was the lighting? What was the physics engine doing?
+
+This realization turned me into a fierce advocate for **Open Science**. I believe that code *is* the method. Today, I publish my datasets, analysis code (R/Python), and VR environments (Unity) openly. I advocate for a science where "replicating a study" means downloading the environment and hitting 'Play'.
+
+### Current Work
+
+Today, I wear three hats:
+1.  **Lecturer:** Teaching the next generation of psychologists how to use these tools.
+2.  **Researcher:** Investigating emotion regulation and the "Sense of Presence."
+3.  **Consultant:** Helping other labs and companies build valid, reliable, and rigorous VR experiments.
+
+If you are interested in discussing experimental design, VR development, or data analysis, please [get in touch](contact.qmd).

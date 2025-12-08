@@ -1,0 +1,62 @@
+---
+title: "Statistical Power & The Tides"
+description: "Why p-values are like spotting a rock in the ocean, and why we often miss the signal."
+author: "Christopher Maymon"
+date: "2025-05-21"
+categories: [Statistics, Teaching, Methods]
+image: "tide.jpg" # You can add an image to this folder later
+draft: false
+---
+
+One of the hardest concepts for psychology students to grasp is **Statistical Power**.
+
+We teach them definitions like *"1 - beta"* or *"the probability of rejecting the null hypothesis when it is false."* These definitions are accurate, but they are intuitive dead ends. They don't help a student visualize *why* their experiment failed.
+
+Instead, I prefer to teach Power using the metaphor of **The Tides**.
+
+## The Rock and The Water
+
+Imagine you are standing on a cliff looking down at a turbulent ocean. Your goal is simple: **Spot the Rock.**
+
+In this metaphor:
+*   **The Rock** is your **Effect Size**. It is the real phenomenon you are trying to find.
+*   **The Water** is the **Noise** (measurement error, individual differences).
+*   **The Tide Level** is your **Statistical Power**.
+
+### Scenario A: Low Power (High Tide)
+Imagine the tide is incredibly high. The water is deep and choppy.
+Somewhere beneath those waves, there is a rock. It is definitely there (the effect exists!), but the noise of the water is completely covering it.
+
+You look for an hour and see nothing. You conclude: *"There is no rock here."*
+In statistics, we call this a **Type II Error** (False Negative). The rock didn't vanish; you just lacked the power to see it through the noise.
+
+### Scenario B: High Power (Low Tide)
+Now, imagine we lower the tide. The water level drops. The waves settle.
+Suddenly, the jagged tip of the rock breaks the surface. You didn't make the rock bigger; you just removed the noise that was hiding it.
+
+This is what happens when we **increase sample size** or **reduce measurement error** (e.g., using a precise VR tracker instead of a stopwatch). We lower the water level so the signal becomes visible.
+
+## The "Big Rock" Fallacy
+
+Many researchers try to fix a "High Tide" problem by looking for a "Bigger Rock."
+
+They think: *"If I just make my manipulation stronger (a louder noise, a scarier VR cliff), the effect will be massive, and I'll see it even if my sample is small."*
+
+This works... sometimes. If the rock is a mountain, you will see it even at high tide. But most effects in psychology aren't mountains; they are pebbles. We are looking for subtle changes in reaction time or slight shifts in emotion regulation.
+
+If you are looking for a pebble at high tide, no amount of squinting (p-hacking) will save you. You need to drain the water.
+
+## Why Simulation Matters
+
+This is why I advocate for **Simulation Science**.
+
+In a traditional field study, the "weather" is unpredictable. The waves are choppy (high noise).
+In a Virtual Reality lab, **I control the weather**. I can turn off the wind. I can perfectly standardize the environment.
+
+By using VR, we are essentially building a breakwall around our study. We calm the waters, reducing the noise variance, which makes even small rocks visible.
+
+We don't need "bigger" effects; we need calmer water.
+
+---
+
+*Enjoyed this metaphor? [Subscribe to the newsletter](../blog.qmd) for more weekly thoughts on methods and mechanics.*

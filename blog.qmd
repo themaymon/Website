@@ -1,0 +1,24 @@
+---
+title: "Lab Notes"
+subtitle: "Thoughts on methods, VR, and open science."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, reading-time, description, categories]
+  feed: true # <--- This auto-generates an RSS feed for readers!
+page-layout: full
+title-block-banner: true
+---
+
+## Subscribe via Email
+To get notified when I post new tutorials or resources, please sign up below.
+
+<!-- PASTE YOUR NEWSLETTER HTML HERE LATER -->
+::: {.callout-note appearance="simple"}
+## 📧 Newsletter
+*Sign up form coming soon.*
+:::

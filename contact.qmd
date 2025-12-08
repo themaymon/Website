@@ -1,40 +1,34 @@
 ---
 title: "Contact Me"
-format:
-  html:
-    css: styles.css
+format: html
 ---
 
-I am always interested in new research collaborations or consulting opportunities. Please fill out the form below or email me directly at [your.email@example.com](mailto:your.email@example.com).
+I am always interested in new research collaborations or consulting opportunities. Please fill out the form below or email me directly at [cnmaymon1@gmail.com](mailto:cnmaymon1@gmail.com).
 
-<!-- The HTML Form -->
-<form action="https://formspree.io/f/YOUR_FORMSPREE_CODE_HERE" method="POST">
+```{=html}
+<form action="https://formspree.io/f/mblnazvp" method="POST">
 
-  <!-- Name Field -->
   <div class="mb-3">
     <label for="name" class="form-label">Name</label>
     <input type="text" class="form-control" id="name" name="name" required>
   </div>
 
-  <!-- Email Field -->
   <div class="mb-3">
     <label for="email" class="form-label">Email address</label>
     <input type="email" class="form-control" id="email" name="email" required>
   </div>
 
-  <!-- Subject Field (Optional) -->
   <div class="mb-3">
     <label for="subject" class="form-label">Subject</label>
     <input type="text" class="form-control" id="subject" name="subject">
   </div>
 
-  <!-- Message Field -->
   <div class="mb-3">
     <label for="message" class="form-label">Message</label>
     <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
   </div>
 
-  <!-- Submit Button -->
   <button type="submit" class="btn btn-primary">Send Message</button>
 
 </form>
+```

@@ -19,5 +19,8 @@
   },
   "blog.qmd": {
     "blog.html": "164784a8"
+  },
+  "posts/power-of-tides/index.qmd": {
+    "index.html": "eb47b6d3"
   }
 }

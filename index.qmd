@@ -1,7 +1,64 @@
 ---
-title: "Website"
+title: ""
+page-layout: full
+toc: false
+about:
+  template: jolla
+  image: "images/Christopher 05.jpg" 
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:Christopher.Maymon@vuw.ac.nz
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/christopher-maymon 
+    - icon: github
+      text: Github
+      href: https://github.com/themaymon
+    - icon: google-scholar
+      text: Google Scholar
+      href: hhttps://scholar.google.com/citations?user=RjwGrqMAAAAJ&hl=en&oi=ao
 ---
 
-This is a Quarto website.
+# Christopher Maymon, PhD
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**Experimental Psychologist | Data Analyst | VR Developer**
+
+I am a Lecturer at Victoria University of Wellington and a research consultant specializing in the intersection of **human behavior** and **virtual environments**.
+
+My work bridges the gap between rigorous academic research and technical implementation. Whether you need advanced statistical modeling, a custom VR environment for behavioral testing, or guidance on experimental design, I provide end-to-end consulting services.
+
+[Hire Me for Consulting](contact.qmd){.btn .btn-primary .btn-lg role="button"} [View Publications](publications.qmd){.btn .btn-outline-primary .btn-lg role="button"}
+
+---
+
+## How I Can Help
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### 📊 Data Analysis
+I specialize in **Bayesian statistics** and **reproducible workflows** using R and Python.
+*   Multilevel modeling
+*   Psychophysiological data processing (EEG, EDA)
+*   Data visualization & reporting
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 🥽 VR Development
+As head of the **VR Lab**, I build immersive Unity environments designed specifically for scientific validity.
+*   Custom Unity (C#) experiments
+*   Motion capture integration
+*   "Sense of Presence" optimization
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 🔬 Research Consulting
+I help companies and labs design robust experiments that yield publishable results.
+*   Experimental design review
+*   Ethical approval guidance
+*   Behavioral measurement strategy
+:::
+
+:::

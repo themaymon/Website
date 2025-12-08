@@ -1,1 +1,26 @@
-/* css styles */
+/* Add spacing to the grid columns */
+.g-col-md-4 {
+  padding: 1.5rem;
+  background-color: #f8f9fa; /* Light grey background */
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  transition: transform 0.2s;
+}
+
+/* Add a subtle hover effect */
+.g-col-md-4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Make the main title huge */
+h1 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+/* Fix profile picture alignment */
+.about-image {
+  /* This tells the circle to focus on the Top Center of the photo */
+  object-position: 50% 20%; 
+}

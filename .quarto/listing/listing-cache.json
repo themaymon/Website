@@ -2,6 +2,9 @@
   "listingMap": {
     "publications.qmd": [
       "publications.yaml"
+    ],
+    "blog.qmd": [
+      "posts"
     ]
   }
 }
