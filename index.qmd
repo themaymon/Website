@@ -9,16 +9,21 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:Christopher.Maymon@vuw.ac.nz
-    - icon: linkedin
-      text: LinkedIn
+      href: contact.qmd
+    - text: "<img src='images/linkedin.png' width='70' height='16'>"
       href: https://linkedin.com/in/christopher-maymon 
-    - icon: github
-      text: Github
+    - text: "<img src='images/github.png' width='60' height='16'>"
       href: https://github.com/themaymon
-    - icon: google-scholar
-      text: Google Scholar
-      href: hhttps://scholar.google.com/citations?user=RjwGrqMAAAAJ&hl=en&oi=ao
+    - text: "<img src='images/scholar.png' width='20' height='16'>"
+      href: https://scholar.google.com/citations?user=RjwGrqMAAAAJ&hl=en&oi=ao
+    - text: "<img src='images/osf.png' width='40' height='16'>"
+      href: https://osf.io/6tvfs/    
+    - text: "<img src='images/orcid.png' width='40' height='16'>"
+      href: https://orcid.org/0000-0003-3837-7674
+    - text: "<img src='images/bluesky.png' width='70' height='16'>"
+      href: https://bsky.app/profile/christophermaymon.bsky.social
+    - text: "<img src='images/researchgate.png' width='90' height='16'>"
+      href: https://www.researchgate.net/profile/Christopher-Maymon-3?ev=hdr_xprf
 ---
 
 # Christopher Maymon, PhD

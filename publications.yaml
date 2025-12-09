@@ -34,11 +34,6 @@
   - Helping Behavior
   - Belief Tracking
   - Cognitive Developmental Psychology
-  links:
-  - text: PDF
-    href: papers/thesis_access.pdf
-  - text: DOI
-    href: https://doi.org/10.26686/wgtn.17134031
   subtitle: <a href="papers/thesis_access.pdf" class="btn btn-outline-primary btn-sm"
     role="button" target="_blank">PDF</a>&nbsp;<a href="https://doi.org/10.26686/wgtn.17134031"
     class="btn btn-outline-primary btn-sm" role="button" target="_blank">DOI</a>&nbsp;
@@ -54,9 +49,6 @@
   - Belief Tracking
   - Two Systems Theory
   - Encyclopedia Chapter
-  links:
-  - text: DOI
-    href: https://doi.org/10.1002/9781119171492.wecad141
   subtitle: <a href="https://doi.org/10.1002/9781119171492.wecad141" class="btn btn-outline-primary
     btn-sm" role="button" target="_blank">DOI</a>&nbsp;
 - title: Predicting presence from emotional experience in virtual reality
@@ -159,13 +151,6 @@
   - Cognitive Neuroscience
   - Empirical Article
   - Peer Reviewed
-  links:
-  - text: PDF
-    href: papers/PlankLateralization.pdf
-  - text: DOI
-    href: https://doi.org/10.1098/rsos.221239
-  - text: Supplementary Materials
-    href: https://osf.io/vzjrk/
   subtitle: <a href="papers/PlankLateralization.pdf" class="btn btn-outline-primary
     btn-sm" role="button" target="_blank">PDF</a>&nbsp;<a href="https://doi.org/10.1098/rsos.221239"
     class="btn btn-outline-primary btn-sm" role="button" target="_blank">DOI</a>&nbsp;<a
@@ -186,13 +171,6 @@
   - Emotion Expression
   - Empirical Article
   - Peer Reviewed
-  links:
-  - text: PDF
-    href: papers/EmotionInMotion.pdf
-  - text: DOI
-    href: https://doi.org/10.1080/02699931.2023.2300748
-  - text: Supplementary Materials
-    href: https://osf.io/vhjfe/
   subtitle: <a href="papers/EmotionInMotion.pdf" class="btn btn-outline-primary btn-sm"
     role="button" target="_blank">PDF</a>&nbsp;<a href="https://doi.org/10.1080/02699931.2023.2300748"
     class="btn btn-outline-primary btn-sm" role="button" target="_blank">DOI</a>&nbsp;<a
@@ -210,11 +188,6 @@
   - Eye Tracking
   - Motion Capture
   - Series Chapter
-  links:
-  - text: PDF
-    href: papers/CTBN_CH2.pdf
-  - text: DOI
-    href: https://doi.org/10.1007/7854_2023_420
   subtitle: <a href="papers/CTBN_CH2.pdf" class="btn btn-outline-primary btn-sm" role="button"
     target="_blank">PDF</a>&nbsp;<a href="https://doi.org/10.1007/7854_2023_420" class="btn
     btn-outline-primary btn-sm" role="button" target="_blank">DOI</a>&nbsp;
@@ -229,11 +202,6 @@
   - Psychological Science
   - Experimental Psychology
   - Series Chapter
-  links:
-  - text: PDF
-    href: papers/CTBN_CH1.pdf
-  - text: DOI
-    href: https://doi.org/10.1007/7854_2023_440
   subtitle: <a href="papers/CTBN_CH1.pdf" class="btn btn-outline-primary btn-sm" role="button"
     target="_blank">PDF</a>&nbsp;<a href="https://doi.org/10.1007/7854_2023_440" class="btn
     btn-outline-primary btn-sm" role="button" target="_blank">DOI</a>&nbsp;
@@ -249,11 +217,6 @@
   - Psychological Science
   - Experimental Psychology
   - Volume Editor
-  links:
-  - text: PDF
-    href: papers/VirtualRealityinBehaviouralNeuroscience_CTBN2023.pdf
-  - text: DOI
-    href: https://doi.org/10.1007/978-3-031-42995-8
   subtitle: <a href="papers/VirtualRealityinBehaviouralNeuroscience_CTBN2023.pdf"
     class="btn btn-outline-primary btn-sm" role="button" target="_blank">PDF</a>&nbsp;<a
     href="https://doi.org/10.1007/978-3-031-42995-8" class="btn btn-outline-primary
@@ -282,18 +245,11 @@
   - Empirical Article
   - Mediation
   - Peer Reviewed
-  links:
-  - text: PDF
-    href: papers/maymon_etal_2024.pdf
-  - text: DOI
-    href: https://dx.doi.org/10.1037/xge0001576
-  - text: Supplementary Materials
-    href: https://osf.io/6s3mf/
-  subtitle: <a href="papers/maymon_etal_2024.pdf" class="btn btn-outline-primary btn-sm"
-    role="button" target="_blank">PDF</a>&nbsp;<a href="https://dx.doi.org/10.1037/xge0001576"
-    class="btn btn-outline-primary btn-sm" role="button" target="_blank">DOI</a>&nbsp;<a
-    href="https://osf.io/6s3mf/" class="btn btn-outline-primary btn-sm" role="button"
-    target="_blank">Supplementary Materials</a>&nbsp;
+  subtitle: <a href="https://www.researchgate.net/profile/Christopher-Maymon-3/publication/379928195_The_presence_of_fear_How_subjective_fear_not_physiological_changes_shapes_the_experience_of_presence/links/6629927108aa54017ab4787e/The-Presence-of-Fear-How-Subjective-Fear-Not-Physiological-Changes-Shapes-the-Experience-of-Presence.pdf"
+    class="btn btn-outline-primary btn-sm" role="button" target="_blank">PDF</a>&nbsp;<a
+    href="https://dx.doi.org/10.1037/xge0001576" class="btn btn-outline-primary btn-sm"
+    role="button" target="_blank">DOI</a>&nbsp;<a href="https://osf.io/6s3mf/" class="btn
+    btn-outline-primary btn-sm" role="button" target="_blank">Supplementary Materials</a>&nbsp;
 - title: Failing to capture the effects of fear on cognition in virtual reality
   author: Gina M Grimshaw, Christopher N Maymon, Jordan Schulde, Damian Tjiptono,
     Tim Gastrell, Madison Jones, André Botes, David Carmel

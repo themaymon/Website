@@ -1,7 +1,7 @@
 library(yaml)
 
-# 1. Read your manual source of truth
-# Make sure your manual file is named 'publications_source.yaml'
+# 1. Read publications from a manually updated YAML file
+# Make file is named 'publications_source.yaml'
 pubs <- read_yaml("publications_source.yaml")
 
 # 2. Process each entry to generate HTML buttons
@@ -43,6 +43,7 @@ pubs_processed <- lapply(pubs, function(x) {
     } else {
       x$subtitle <- paste0(x$subtitle, "<br>", buttons_html)
     }
+    x$links <- NULL  # Remove the original links field
   }
   
   # Return the modified entry
