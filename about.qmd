@@ -7,7 +7,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:Christopher.Maymon@vuw.ac.nz
+      href: mailto:christophernmaymon@gmail.com
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/yourprofile

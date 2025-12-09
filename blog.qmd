@@ -17,7 +17,7 @@ title-block-banner: true
 ## Subscribe via Email
 To get notified when I post new tutorials or resources, please sign up below.
 
-<!-- PASTE YOUR NEWSLETTER HTML HERE LATER -->
+<!-- PASTE NEWSLETTER HTML HERE LATER -->
 ::: {.callout-note appearance="simple"}
 ## 📧 Newsletter
 *Sign up form coming soon.*

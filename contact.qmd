@@ -3,7 +3,7 @@ title: "Contact Me"
 format: html
 ---
 
-I am always interested in new research collaborations or consulting opportunities. Please fill out the form below or email me directly at [cnmaymon1@gmail.com](mailto:cnmaymon1@gmail.com).
+I am always interested in new research collaborations or consulting opportunities. Please fill out the form below or email me directly at [christophernmaymon@gmail.com](mailto:christophernmaymon@gmail.com).
 
 ```{=html}
 <form action="https://formspree.io/f/mblnazvp" method="POST">
