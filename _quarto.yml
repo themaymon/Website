@@ -18,8 +18,8 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
-      - href: blog.qmd
-        text: Blog
+      #- href: blog.qmd
+       # text: Blog
       - href: contact.qmd
         text: Contact Me
 
