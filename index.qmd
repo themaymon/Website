@@ -26,13 +26,17 @@ about:
       href: https://www.researchgate.net/profile/Christopher-Maymon-3?ev=hdr_xprf
 ---
 
-# Christopher Maymon, PhD
+# Christopher N Maymon, PhD
 
-**Experimental Psychologist | Data Analyst | VR Developer**
+**Experimental Psychologist | VR Developer | Data Analyst | Psychophysiologist**
 
-I am a Lecturer at Victoria University of Wellington and a research consultant specializing in the intersection of **human behavior** and **virtual environments**.
+I am a psychological scientist, teacher, and research consultant.
 
-My work bridges the gap between rigorous academic research and technical implementation. Whether you need advanced statistical modeling, a custom VR environment for behavioral testing, or guidance on experimental design, I provide end-to-end consulting services.
+I specialize in designing ecologically valid experiments to answer complex psychological questions. My work integrates emerging technologies—such as immersive **virtual reality**, mobile **biosensing**, and **artificial intelligence**—to study human behavior in the real world.
+
+An experimentalist at heart, I am constantly seeking open psychological questions that can be resolved through carefully designed research.
+
+I provide end-to-end [consulting services](consulting.qmd) to researchers, labs, and companies.
 
 [Hire Me for Consulting](contact.qmd){.btn .btn-primary .btn-lg role="button"} [View Publications](publications.qmd){.btn .btn-outline-primary .btn-lg role="button"}
 
@@ -43,27 +47,29 @@ My work bridges the gap between rigorous academic research and technical impleme
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-### 📊 Data Analysis
-I specialize in **Bayesian statistics** and **reproducible workflows** using R and Python.
-*   Multilevel modeling
-*   Psychophysiological data processing (EEG, EDA)
-*   Data visualization & reporting
+### 📊 Experimental Design & Analysis
+Do you have complex data but aren't sure how to analyze it? Or perhaps you have a hypothesis but need help designing an experiment to test it. I specialize in building **interpretable and reproducible research pipelines**. I help you explore, visualize, and statistically model your results in a way that is rigorous and appropriate, elucidating underlying patterns and relationships.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 🥽 VR Development
-As head of the **VR Lab**, I build immersive Unity environments designed specifically for scientific validity.
-*   Custom Unity (C#) experiments
-*   Motion capture integration
-*   "Sense of Presence" optimization
+### 🥽 VR Facilitator & Developer
+<!-- The Image Code -->
+<div style="width: 100%; height: 150px; overflow: hidden; border-radius: 12px; position: relative; margin-bottom: 1rem;">
+  <img src="images/VR_Action.png" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%;">
+</div>
+
+From 2018 to 2025, I served as Director of Victoria University of Wellington's Virtual Reality Neuroscience Lab. In this role, I developed methodologies for **ecologically valid experiments**, navigating the rapid evolution of VR hardware and software. I offer consultation to universities establishing VR facilities, as well as the development of **bespoke VR simulations** tailored to your specific research questions.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 🔬 Research Consulting
-I help companies and labs design robust experiments that yield publishable results.
-*   Experimental design review
-*   Ethical approval guidance
-*   Behavioral measurement strategy
+### 👨‍🏫 Instructor & Communicator
+
+<!-- The Image Code -->
+<div style="width: 100%; height: 250px; overflow: hidden; border-radius: 12px; position: relative; margin-bottom: 1rem;">
+  <img src="images/teaching_action.png" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%;">
+</div>
+
+I am a Lecturer with ten years of experience teaching topics ranging from statistics to neurobiology. My goal is always to connect the material to concrete aspects of my students' lived experiences. My teaching approach holds attention, aids retention, and—most importantly—inspires curiosity. I offer workshops and consultation to those tasked with translating complex ideas into clear, actionable insights.
 :::
 
 :::
