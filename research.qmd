@@ -7,7 +7,7 @@ format:
     toc-depth: 2
 ---
 
-My research program is driven by a single, overarching goal: **to establish a rigorous science of human behavior in simulated environments.**
+My research is driven by a single, overarching goal: **to establish a rigorous science of human behavior in simulated environments.**
 
 For decades, psychology has faced a "validity trade-off." We could study behavior in the real world (high ecological validity, low control) or in the lab (low ecological validity, high control). My work demonstrates that **Virtual Reality (VR)** allows us to break this trade-off, enabling us to study complex, high-stakes emotional experiences—like fear, awe, and disgust—without sacrificing millisecond-level experimental precision.
 

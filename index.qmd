@@ -40,7 +40,8 @@ An experimentalist at heart, I am constantly searching for research questions th
 
 I provide end-to-end [consulting services](consulting.qmd) to research labs, companies, and government agencies.
 
-[Hire Me for Consulting](contact.qmd){.btn .btn-primary .btn-lg role="button"} [View Publications](publications.qmd){.btn .btn-outline-primary .btn-lg role="button"}
+[Hire Me for Consulting](contact.qmd){.btn .btn-primary .btn-lg role="button"} [View Publications](publications.qmd){.btn .btn-outline-primary .btn-lg role="button"} 
+[<i class="bi bi-file-earmark-pdf"></i> Download Academic CV](cv/Christopher_Maymon_CV_2025.pdf){.btn .btn-outline-primary .btn-lg role="button"}
 
 ---
 :::

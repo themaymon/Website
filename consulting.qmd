@@ -7,52 +7,41 @@ format:
     toc-depth: 2
 ---
 
-I offer specialized consulting for academic labs, startups, and tech companies working at the intersection of human behavior and technology. 
+I offer specialized consultation services for labs, startups, and tech companies working at the intersection of human behavior and technology.   
 
-Unlike generalist developers, I build systems designed for **scientific validity**. Unlike generalist researchers, I can implement the **technical architecture** required to run complex studies.
+I build systems designed for **scientific validity**. The technical architecture I deliver is suitable for conducting complex studies capable of yielding impactful and generalizable findings.
 
 ::: {.callout-note appearance="simple"}
 ## Availability
-I am currently accepting new projects for **Q3/Q4 2025**. [Contact me](contact.qmd) to discuss your timeline.
+I am currently accepting new projects for **Q1/Q2 2026**. [Contact me](contact.qmd) to discuss your project and timeline.
 :::
 
 ---
 
-## My Expertise
+## My Services & Expertise
 
 ::: {.panel-tabset}
 
-### 🥽 VR Development
-**"I need a VR environment that is scientifically valid, not just visually pretty."**
+### 🥽 VR Development & Evaluation
+**Do you have an idea for a research project using Virtual Reality? Or perhaps you already have the technology and software, and you want to know what research questions could be addressed with your product?**
 
-I build custom Unity environments optimized for behavioral research. My focus is on **Presence**—ensuring participants treat the virtual world as real—and precise **event timing** for physiological synchronization.
-
-#### Services
-*   **Custom Unity (C#) Development:** From simple tasks to complex, interactive social simulations.
-*   **Sensor Integration:** Synchronizing VR events with EEG, EDA (GSR), and Heart Rate data streams.
-*   **"Presence" Optimization:** Audit of existing environments to improve immersion and reduce motion sickness.
-*   **Motion Capture:** Implementation of full-body avatars and inverse kinematics (IK) for behavioral tracking.
-
-### 📊 Data Analysis
-**"I have complex, noisy data and I need a robust, reproducible analysis."**
-
-I specialize in **Bayesian Statistics** and **Multilevel Modeling**, particularly for complex datasets common in psychophysiology and longitudinal studies. I don't just run the numbers; I provide the code to ensure your results are reproducible.
+As an experimental psychologist with a specialization in VR research methods, I can help design your research project, from storyboarding the ideal conditions for testing a specific hypothesis, to developing and programming bespoke VR contexts, creating clear step-by-step protocols for extracting behavioural data and submitting that data for statistical analysis, and interpreting the results of those analyses. I'm a one-stop-shop for any VR research project. 
 
 #### Services
-*   **Bayesian Modeling:** Implementation of JAGS/Stan models for complex hierarchical data.
-*   **Physiological Signal Processing:** Cleaning and analyzing noisy EEG/EDA data.
-*   **Reproducible Pipelines:** converting your manual spreadsheet workflow into an automated R or Python script.
-*   **Data Visualization:** Publication-ready figures (ggplot2) and interactive dashboards (Shiny/Quarto).
+*   **Custom VR Environemnt Development:** From simple environments to complex, interactive social simulations, I will create the optimal experimental conditions to acheive the aims of your project.
+*   **Technological Integration:** Does your project require the integration of different technological systems? Perhaps you need to synchronise events in VR with datastreams you are collecting from participants such as ECG, EEG, or electrodermal activity? I can create technological architecture that seamlessly integrates data streams across distinct hardware and software.
+*   **"Presence" Optimization:** The most essential benchmark of a good VR experience is that users feel that they are *present* in the environemnt. [As a leading voice in the psychological science of conscious presence](research.qmd), I am well positioned to audit your VR experience, preparing in-depth evaluations of the user experience with concrete design recommendations supported by **empirical peer-reviewed neuroscience research**.
 
-### 🔬 Experimental Design
-**"I have a research question, but I don't know if it's feasible in VR."**
+### 📊 Data Analysis & Experimental Design
+**Are you a researchers who has a file-drawer of data you don't know how to analyse or interpret? Or perhaps your company's products generate data but you're not sure how to extract insights from it?**
 
-Translating a traditional lab study into VR requires navigating unique challenges: hardware limitations, motion sickness risks, and ethical constraints. I help you design studies that are rigorous, ethical, and publishable.
+I have a strong background in **statistical programming** and create **reproducible reports**. I have spent over a decade working with large, complex and messy datasets (e.g., eye-tracking data in VR, markerless motion capture data, psychophysiological data, mobile electroencephalography data, etc.). I don't just run the numbers for you; I also implement complete coding architectures (written in R and/or Python) tailored for your specific data and reserach questions. This ensures that my process -- from data manipulation to visualization to analysis and summarization -- is transparently documented and most importantly, fully reproducible.
 
 #### Services
-*   **Feasibility Reviews:** rapid assessment of whether your research question works in VR.
-*   **Ethical Guidance:** Assistance with ethics applications specifically for immersive fear/threat studies.
-*   **Pre-registration Support:** Helping you define your variables and analysis plan *before* you collect data (Open Science best practices).
+*   **Statistical Modeling:** Selecting appropriate statistical tests for your data is critical to the success of your project. And it can often be a daunting task, even if you have a strong statistical background. I help you choose the right models for your data, whether that be linear mixed effects models, generalized additive models, Bayesian hierarchical models, or machine learning approaches.
+*   **Physiological Signal Processing:** Physiological data can yield fascinating insights into psychological experience. However, physiological data is also often messy, and subject to many sources of potential measurement error or confounding variables. I have been working with physiological data for several years to conduct psychophysiological research (using Empatica E4 wearable devices, Equivital Lifemonitor vests, three-lead ADInstruments ECG systems, and Biopac wireless ECG, EDA, and Impedance Cardiography systems), and their respective softwares. I can help you to clean and analyze physiological data to extract meaningful insights (backed by leading empirical, peer-reviewed psychophysiological research) to elucidate the connections between psychological experience and physiological change.
+*   **Reproducible Analytic Pipelines:** High-Impact journals are increasingly placing value on **transparent scientific reporting**, where readers can trace the research from the published manuscript all the way back to the steps they took to transform their data and prepare it for analysis. If you have already analysed your data using Jamovi, SPSS, etc., and you want to turn your report into a reproducible manuscript, I can create the reproducible automated workflow that will make your paper stand out and hold up to scrutiny in today's scientific reporting climate.
+*   **Data Visualization:** Every scientific study is a story. Moreover, the story of scientific discovery is not a dense tome of text, but is instead a picture-book of graphs and figures that clearly highlighte the main findings. I can create **Publication-ready figures** (ggplot2), and **interactive dashboards** (Shiny/Quarto), to reveal the story within your data. 
 
 :::
 
@@ -60,41 +49,23 @@ Translating a traditional lab study into VR requires navigating unique challenge
 
 ## How I Work
 
-I believe in the **"Open Science"** model of consulting. You don't just get a PDF report; you get the assets, the code, and the documentation.
+I believe in an **"Open Science"** model of consulting. You don't just get a PDF report from me; you also get the assets, code (with clear straightforward comments explaining every programmatic step), and complete documentation, allowing you to apply your tailor-made research architecture for your future projects.
 
 ### 1. The Discovery Call (Free)
-We meet for 30 minutes to discuss your research question or technical bottleneck. I will tell you honestly if I am the right fit.
-*   *Outcome:* A clear "Go / No-Go" decision.
+We schedule a 30 minutes call to discuss your project, research question, or the challenges you are facing. And at the end of this call, I will tell you honestly, whether I am the right fit for your project.
 
-### 2. The Blueprint
-I deliver a detailed scope of work. For VR projects, this includes a "grey-box" prototype video. For analysis, this includes a mock-up of the final report.
+*   *Outcome:* a decision is made about whether we are a good fit.
+
+### 2. First Deliverable: *The Blueprint*
+I deliver a detailed blueprint that defines the scope of work. For VR projects, this includes a "grey-box" prototype video. For analysis, this includes a mock-up of the final report.
+
 *   *Outcome:* You know exactly what you are paying for.
 
-### 3. Execution & Handoff
-I build the solution and then **train you** on how to use it. I provide commented code and video walkthroughs so your lab is not dependent on me forever.
+### 3. Second Deliverable: *Execution & Handoff*
+I build the solution and **train your team** on how to use it. I provide clearly commented code and video walkthroughs so your team is not dependent on me forever.
+
 *   *Outcome:* A sustainable tool for your research.
 
----
-
-## Recent Projects
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-#### 🏔️ The Virtual Plank
-**Client:** *Cognitive & Affective Neuroscience Lab*
-Designed a high-fidelity VR height exposure task to induce physiological fear responses without physical danger. Used for studying emotion regulation.
-:::
-
-::: {.g-col-12 .g-col-md-6}
-#### 🩸 Disgust Induction
-**Client:** *Victoria University of Wellington*
-Created a "filthy bathroom" simulation to test disgust sensitivity. Features interactive physics and realistic audio-visual cues to maximize "sense of presence."
-:::
-
-:::
-
----
 
 ### Ready to start?
 

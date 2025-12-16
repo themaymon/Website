@@ -10,12 +10,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
+      #- href: about.qmd
+      #  text: About
       - href: consulting.qmd 
         text: Consulting
-      - href: research.qmd
-        text: Research
+      #- href: research.qmd
+       # text: Research
       - href: publications.qmd
         text: Publications
       #- href: blog.qmd
