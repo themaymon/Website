@@ -34,11 +34,11 @@ about:
 
 I am a psychological scientist, teacher, and research consultant.
 
-I specialize in designing **ecologically valid experiments** capable of yielding answers to complex psychological questions. In my [research](research.qmd), I integrate emerging technologies—such like **virtual reality**, **biosensors**, and **artificial intelligence** to study human behavior as it occurs in the real world.
+I specialize in designing **ecologically valid experiments** capable of yielding answers to complex psychological questions. In my [research](publications.qmd), I integrate emerging technologies—such like **virtual reality**, **biosensors**, and **artificial intelligence** to study human behavior.
 
 An experimentalist at heart, I am constantly searching for research questions that can be resolved through carefully designed experiments.
 
-I provide end-to-end [consulting services](consulting.qmd) to research labs, companies, and government agencies.
+I provide end-to-end [consulting services](consulting.qmd) to labs, companies, and government agencies.
 
 [Hire Me for Consulting](contact.qmd){.btn .btn-primary .btn-lg role="button"} [View Publications](publications.qmd){.btn .btn-outline-primary .btn-lg role="button"} 
 [<i class="bi bi-file-earmark-pdf"></i> Download Academic CV](cv/Christopher_Maymon_CV_2025.pdf){.btn .btn-outline-primary .btn-lg role="button"}
