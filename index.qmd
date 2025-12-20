@@ -2,7 +2,6 @@
 title: ""
 page-layout: full
 toc: false
-css: custom-styles.css
 about:
   id: hero-heading      
   template: trestles    
@@ -33,11 +32,11 @@ about:
 
 **Experimental Psychologist | VR Developer | Data Analyst**
 
-I am a psychological scientist, teacher, and research consultant.
+I am cognitive psychologist, experimental methodologist, teacher, and research consultant.
 
-I specialize in designing **ecologically valid experiments** capable of yielding answers to complex psychological questions. In my [research](publications.qmd), I integrate emerging technologies—such like **virtual reality**, **biosensors**, and **artificial intelligence** to study human behavior.
+My specialty is designing **ecologically valid experiments** capable of yielding profound insights into complex psychological phenomena. My [research](publications.qmd) integrates emerging technologies—such as **virtual reality**, **mobile biosensors**, and **artificial intelligence**—to study important theoretically grounded questions about the nature of cognition, emotions, and consciousness.
 
-An experimentalist at heart, I am constantly searching for research questions that can be resolved through carefully designed experiments.
+An experimentalist at heart, I am perpetually on the hunt for important empirical hypotheses that can be demonstrating using a straightforward but thoughtfully designed experiment.
 
 I provide end-to-end [consulting services](consulting.qmd) to labs, companies, and government agencies.
 

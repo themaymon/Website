@@ -1,32 +1,40 @@
-/* --- 1. Typography (The "Hamel" Look) --- */
+/* ============================================
+   CHRISTOPHER MAYMON - PERSONAL WEBSITE STYLES
+   ============================================ */
+
+/* --- 1. Typography & Root Variables --- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
 :root {
   --bs-font-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  --bs-body-color: #1a1a1a;       /* Dark Charcoal (Not pitch black) */
+  --bs-body-color: #1a1a1a;       /* Dark Charcoal */
   --bs-heading-color: #000000;    /* Pitch Black for headers */
-  --bs-primary: #0969da;          /* "GitHub Blue" for links */
+  --bs-primary: #0969da;          /* GitHub Blue */
   --bs-link-color: #0969da;
   --bs-link-hover-color: #004085;
+  --bs-secondary: #586069;        /* Muted grey */
+  --bs-border-color: #e1e4e8;     /* GitHub border */
+  --bs-bg-light: #f6f8fa;         /* Light grey background */
 }
 
 body {
   font-family: var(--bs-font-sans-serif);
   background-color: #ffffff;
-  letter-spacing: -0.01em; /* Tight, modern letter spacing */
+  letter-spacing: -0.01em;
   line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
-  font-weight: 800; /* Extra bold headers */
+  font-weight: 800;
   letter-spacing: -0.03em;
   margin-top: 1.5rem;
+  color: var(--bs-heading-color);
 }
 
 /* --- 2. Navbar (Clean & Minimal) --- */
 .navbar {
-  background-color: #ffffff !important; /* Pure White */
-  border-bottom: 1px solid #eaeaea;     /* Subtle separator line */
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .navbar-brand {
@@ -36,101 +44,255 @@ h1, h2, h3, h4 {
 }
 
 .nav-link {
-  color: #586069 !important; /* Muted grey for links */
+  color: var(--bs-secondary) !important;
   font-weight: 600;
   font-size: 0.95rem;
+  transition: color 0.2s ease;
 }
 
 .nav-link:hover {
-  color: #0969da !important; /* Blue on hover */
+  color: var(--bs-primary) !important;
 }
 
-/* --- 3. The Grid Cards (Sharp & Techy) --- */
-/* This targets your "How Can I Help" section */
-.g-col-md-4, .g-col-md-6 {
-  background-color: #ffffff;
-  border: 1px solid #e1e4e8; /* The "GitHub" border color */
-  border-radius: 6px;        /* Slightly squared off corners */
-  padding: 1.5rem;
-  transition: all 0.2s ease;
+/* --- 3. Hero Section --- */
+#hero-heading {
+  padding: 2rem 0;
 }
 
-.g-col-md-4:hover, .g-col-md-6:hover {
-  transform: translateY(-2px);
-  border-color: #0969da;     /* Blue border on hover */
-  box-shadow: 0 8px 24px rgba(0,0,0,0.05); /* Very soft shadow */
+.lead-subtitle {
+  font-size: 1.25rem;
+  color: var(--bs-secondary);
+  margin-bottom: 1.5rem;
 }
 
-/* Remove default background from headers inside cards */
-.g-col-md-4 h3, .g-col-md-6 h3 {
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* --- 4. Profile Image --- */
+.about-image {
+  object-position: center 20%;
+  border: 1px solid #eaeaea;
+}
+
+/* --- 5. Social Links (Unified Styling) --- */
+.about-links .about-link img {
+  height: 1.5rem;
+  width: auto;
+  margin-bottom: 2px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.about-links a {
+  transition: transform 0.2s ease;
+}
+
+.about-links a:hover,
+.about-links .about-link:hover img {
+  transform: scale(1.1);
+}
+
+/* --- 6. Service Cards (Grid Layout) --- */
+.services-grid {
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.service-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--bs-primary);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+  color: var(--bs-primary);
   font-size: 1.25rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
-/* --- 4. Buttons (Monochrome) --- */
-/* Primary buttons are now Black/Dark Grey */
+.service-card strong {
+  color: var(--bs-heading-color);
+  display: block;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.service-card ul {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* --- 7. Service Images --- */
+.service-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--bs-border-color);
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.05);
+}
+
+/* --- 8. Buttons (Monochrome GitHub Style) --- */
 .btn-primary {
-  background-color: #24292e; 
+  background-color: #24292e;
   border-color: #24292e;
   border-radius: 6px;
   font-weight: 600;
   padding: 0.6rem 1.2rem;
+  transition: all 0.2s ease;
 }
 
 .btn-primary:hover {
   background-color: #000000;
   border-color: #000000;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Outline buttons (like 'View Publications') */
 .btn-outline-primary {
   color: #24292e;
   border-color: #d1d5da;
   border-radius: 6px;
   font-weight: 600;
+  transition: all 0.2s ease;
 }
 
 .btn-outline-primary:hover {
-  background-color: #f6f8fa; /* Very light grey */
+  background-color: var(--bs-bg-light);
   color: #000000;
   border-color: #24292e;
 }
 
-/* --- 5. Profile Image Alignment --- */
-.about-image {
-  object-position: center 20%; 
-  border: 1px solid #eaeaea; /* Optional: adds a nice border to your photo */
+.btn-outline-secondary {
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
 
-/* --- 6. Code Blocks (Optional) --- */
-/* Makes code look like it does on GitHub */
+/* --- 9. Legacy Grid Cards (Fallback) --- */
+/* For any pages not using .service-card class */
+.g-col-md-4:not(.service-card), 
+.g-col-md-6:not(.service-card) {
+  background-color: #ffffff;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 6px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.g-col-md-4:not(.service-card):hover, 
+.g-col-md-6:not(.service-card):hover {
+  transform: translateY(-2px);
+  border-color: var(--bs-primary);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.g-col-md-4:not(.service-card) h3, 
+.g-col-md-6:not(.service-card) h3 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* --- 10. Code Blocks (GitHub Style) --- */
 pre {
-  background-color: #f6f8fa;
+  background-color: var(--bs-bg-light);
   border: 1px solid #eaeaea;
   border-radius: 6px;
+  padding: 1rem;
 }
 
-/* --- Social Button Logo Scaling --- */
-
-/* Target images inside the profile link buttons */
-.about-links .about-link img {
-  height: 1.5rem;  /* This sets height relative to the font size */
-  width: auto;     /* Calculates width automatically based on the height */
-  margin-bottom: 2px; /* Visual alignment fix */
-  object-fit: contain; 
-  transition: transform 0.2s ease; /* Smooth animation */
+code {
+  background-color: rgba(175, 184, 193, 0.2);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 85%;
 }
 
-/* Optional: Make them pop slightly when you hover over the button */
-.about-links .about-link:hover img {
-  transform: scale(1.1);
-}
-
-/* --- Mobile Responsiveness --- */
-/* On small screens, make the logos slightly smaller so buttons fit better */
+/* --- 11. Responsive Design --- */
 @media (max-width: 768px) {
-  .about-links .about-link img {
-    height: 1.2rem; 
+  /* Hero Section */
+  .hero-buttons {
+    flex-direction: column;
   }
+  
+  .hero-buttons .btn {
+    width: 100%;
+  }
+  
+  /* Service Cards */
+  .service-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Social Links */
+  .about-links .about-link img {
+    height: 1.2rem;
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-icon {
+    font-size: 2.5rem;
+  }
+  
+  .service-image {
+    height: 180px;
+  }
+}
+
+/* --- 12. Utility Classes --- */
+.text-muted-custom {
+  color: var(--bs-secondary);
+}
+
+.border-custom {
+  border-color: var(--bs-border-color) !important;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
 }
