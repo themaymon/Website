@@ -30,15 +30,15 @@ about:
 :::{#hero-heading} 
 # Christopher N Maymon, PhD
 
-**Experimental Psychologist | VR Developer | Data Analyst**
+**Human Factors Consultant | Experimental Psychologist | VR & Simulation Specialist**
 
-I am cognitive psychologist, experimental methodologist, teacher, and research consultant.
+I help organisations design technology, training, and work systems that fit real human capabilities—so they are **safer**, **easier to use**, and **more effective in the field**.
 
-My specialty is designing **ecologically valid experiments** capable of yielding profound insights into complex psychological phenomena. My [research](publications.qmd) integrates emerging technologies—such as **virtual reality**, **mobile biosensors**, and **artificial intelligence**—to study important theoretically grounded questions about the nature of cognition, emotions, and consciousness.
+I’m a cognitive psychologist and experimental methodologist with deep experience translating research into practical improvements for complex environments. My approach combines **human factors / ergonomics**, **ecologically valid experimentation**, and modern measurement—using tools like **virtual reality**, **mobile biosensors**, and **data analytics**—to understand how people perceive, decide, coordinate, and perform under real-world constraints.
 
-An experimentalist at heart, I am perpetually on the hunt for important empirical hypotheses that can be demonstrating using a straightforward but thoughtfully designed experiment.
+I work with labs, companies, and government agencies to reduce human error, improve usability, and strengthen performance—without hype or hand-waving. When the question is “Will this system work for people *in practice*?”, I help you answer it with evidence.
 
-I provide end-to-end [consulting services](consulting.qmd) to labs, companies, and government agencies.
+I provide end-to-end [consulting services](consulting.qmd): from problem framing and study design to data collection, analysis, and clear recommendations your team can implement.
 
 [Hire Me for Consulting](contact.qmd){.btn .btn-primary .btn-lg role="button"} [View Publications](publications.qmd){.btn .btn-outline-primary .btn-lg role="button"} 
 [<i class="bi bi-file-earmark-pdf"></i> Download Academic CV](cv/Christopher_Maymon_CV_2025.pdf){.btn .btn-outline-primary .btn-lg role="button"}
@@ -58,29 +58,24 @@ I provide end-to-end [consulting services](consulting.qmd) to labs, companies, a
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-### 📊 Experimental Design & Analysis
-Do you have complex data but aren't sure how to analyze it? Or perhaps you have a hypothesis but need help designing an experiment to test it. I specialize in building **interpretable and reproducible research pipelines**. I help you explore, visualize, and statistically model your results in a way that is rigorous and appropriate, elucidating underlying patterns and relationships.
+### 🧠 Human Factors & Usability Evaluation
+Are users struggling, making errors, or developing workarounds? I evaluate **human–system interaction** to identify where interfaces, procedures, and environments create friction—then I deliver actionable fixes.
+
+Typical work includes task analysis, workflow mapping, usability testing, cognitive walkthroughs, error analysis, and evidence-based recommendations for safer and more intuitive systems.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 🥽 VR Facilitator & Developer
-<!-- The Image Code -->
-<div style="width: 100%; height: 150px; overflow: hidden; border-radius: 12px; position: relative; margin-bottom: 1rem;">
-  <img src="images/VR_Action.png" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%;">
-</div>
+### 🥽 VR & Simulation for Human Performance
+I build and use **high-fidelity VR simulations** that let teams test designs and undergo training in realistic conditions—before products are deployed at scale.
 
-From 2018 to 2025, I served as Director of Victoria University of Wellington's Virtual Reality Neuroscience Lab. In this role, I developed methodologies for **ecologically valid experiments**, navigating the rapid evolution of VR hardware and software. I offer consultation to universities establishing VR facilities, as well as the development of **bespoke VR simulations** tailored to your specific research questions.
+I support organisations that want to (a) establish VR capability, (b) prototype and evaluate procedures or interfaces, or (c) develop **bespoke simulations** for human factors research and performance training.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 👨‍🏫 Instructor & Communicator
+### 📊 Experimental Design, Measurement & Data Analysis
+If you need answers that hold up under scrutiny, I design studies that are **reproducible**, interpretable, and aligned to operational decisions. I build measurement plans, choose appropriate statistical models, and communicate results clearly to technical and non-technical stakeholders.
 
-<!-- The Image Code -->
-<div style="width: 100%; height: 250px; overflow: hidden; border-radius: 12px; position: relative; margin-bottom: 1rem;">
-  <img src="images/teaching_action.png" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%;">
-</div>
-
-I am a Lecturer with ten years of experience teaching topics ranging from statistics to neurobiology. My goal is always to connect the material to concrete aspects of my students' lived experiences. My teaching approach holds attention, aids retention, and—most importantly—inspires curiosity. I offer workshops and consultation to those tasked with translating complex ideas into clear, actionable insights.
+This is ideal for A/B tests, field trials, intervention evaluations, and any situation where you need credible evidence—not just opinions.
 :::
 
 :::

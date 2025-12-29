@@ -1,20 +1,29 @@
 ---
 title: "Consulting Services"
-subtitle: "Bridging the gap between code and cognition."
+subtitle: "Human factors consulting—bridging the gap between code and cognition."
 format:
   html:
     toc: true
     toc-depth: 2
 ---
 
-I offer specialized consultation services for labs, startups, and tech companies working at the intersection of human behavior and technology.   
+I offer specialized **human factors / ergonomics consulting** for labs, startups, and technology teams building systems that people must use *reliably*—in the real world, under real constraints.
 
-I build systems designed for **scientific validity**. The technical architecture I deliver is suitable for conducting complex studies capable of yielding impactful and generalizable findings.
+I help you design and evaluate tools, interfaces, and workflows for **usability**, **safety**, and **human performance**. When needed, I build the technical research architecture to support strong inference: studies that are **ecologically valid**, **reproducible**, and decision-relevant.
 
 ::: {.callout-note appearance="simple"}
 ## Availability
-I am currently accepting new projects for **Q1/Q2 2026**. [Contact me](contact.qmd) to discuss your project and timeline.
+I am currently accepting new projects for **Q1/Q2 2026**. [Contact me](contact.qmd) to discuss fit, scope, and timeline.
 :::
+
+---
+
+## What I Deliver (Human Factors Outcomes)
+
+- **Clear evidence** about what users can (and cannot) do with your system
+- **Risk-reducing recommendations** grounded in data (not opinions)
+- **Validated prototypes** and/or simulation-based evaluations before costly deployment
+- **Reusable measurement & analysis pipelines** your team can run again
 
 ---
 
@@ -22,51 +31,86 @@ I am currently accepting new projects for **Q1/Q2 2026**. [Contact me](contact.q
 
 ::: {.panel-tabset}
 
-### 🥽 VR Development & Evaluation
-**Do you have an idea for a research project using Virtual Reality? Or perhaps you already have the technology and software, and you want to know what research questions could be addressed with your product?**
+### 🧠 Human Factors & Usability Evaluation
+**Do you need to know whether your product, interface, or procedure will work for people *in practice*—and where errors, friction, or confusion are coming from?**
 
-As an experimental psychologist with a specialization in VR research methods, I can help design your research project, from storyboarding the ideal conditions for testing a specific hypothesis, to developing and programming bespoke VR contexts, creating clear step-by-step protocols for extracting behavioural data and submitting that data for statistical analysis, and interpreting the results of those analyses. I'm a one-stop-shop for any VR research project. 
-
-#### Services
-*   **Custom VR Environemnt Development:** From simple environments to complex, interactive social simulations, I will create the optimal experimental conditions to acheive the aims of your project.
-*   **Technological Integration:** Does your project require the integration of different technological systems? Perhaps you need to synchronise events in VR with datastreams you are collecting from participants such as ECG, EEG, or electrodermal activity? I can create technological architecture that seamlessly integrates data streams across distinct hardware and software.
-*   **"Presence" Optimization:** The most essential benchmark of a good VR experience is that users feel that they are *present* in the environemnt. [As a leading voice in the psychological science of conscious presence](research.qmd), I am well positioned to audit your VR experience, preparing in-depth evaluations of the user experience with concrete design recommendations supported by **empirical peer-reviewed neuroscience research**.
-
-### 📊 Data Analysis & Experimental Design
-**Are you a researchers who has a file-drawer of data you don't know how to analyse or interpret? Or perhaps your company's products generate data but you're not sure how to extract insights from it?**
-
-I have a strong background in **statistical programming** and create **reproducible reports**. I have spent over a decade working with large, complex and messy datasets (e.g., eye-tracking data in VR, markerless motion capture data, psychophysiological data, mobile electroencephalography data, etc.). I don't just run the numbers for you; I also implement complete coding architectures (written in R and/or Python) tailored for your specific data and reserach questions. This ensures that my process -- from data manipulation to visualization to analysis and summarization -- is transparently documented and most importantly, fully reproducible.
+I run human factors evaluations that map real user goals onto real task demands. This includes identifying failure points (where users misinterpret cues, choose the wrong action, or miss critical information), and turning those findings into **concrete design changes**.
 
 #### Services
-*   **Statistical Modeling:** Selecting appropriate statistical tests for your data is critical to the success of your project. And it can often be a daunting task, even if you have a strong statistical background. I help you choose the right models for your data, whether that be linear mixed effects models, generalized additive models, Bayesian hierarchical models, or machine learning approaches.
-*   **Physiological Signal Processing:** Physiological data can yield fascinating insights into psychological experience. However, physiological data is also often messy, and subject to many sources of potential measurement error or confounding variables. I have been working with physiological data for several years to conduct psychophysiological research (using Empatica E4 wearable devices, Equivital Lifemonitor vests, three-lead ADInstruments ECG systems, and Biopac wireless ECG, EDA, and Impedance Cardiography systems), and their respective softwares. I can help you to clean and analyze physiological data to extract meaningful insights (backed by leading empirical, peer-reviewed psychophysiological research) to elucidate the connections between psychological experience and physiological change.
-*   **Reproducible Analytic Pipelines:** High-Impact journals are increasingly placing value on **transparent scientific reporting**, where readers can trace the research from the published manuscript all the way back to the steps they took to transform their data and prepare it for analysis. If you have already analysed your data using Jamovi, SPSS, etc., and you want to turn your report into a reproducible manuscript, I can create the reproducible automated workflow that will make your paper stand out and hold up to scrutiny in today's scientific reporting climate.
-*   **Data Visualization:** Every scientific study is a story. Moreover, the story of scientific discovery is not a dense tome of text, but is instead a picture-book of graphs and figures that clearly highlighte the main findings. I can create **Publication-ready figures** (ggplot2), and **interactive dashboards** (Shiny/Quarto), to reveal the story within your data. 
+* **Task & workflow analysis:** Decompose tasks, decision points, and handoffs; identify cognitive load and bottlenecks.
+* **Usability testing (lab or field):** Plan and run studies; define success metrics; capture qualitative + behavioral measures.
+* **Error analysis & risk-oriented evaluation:** Identify likely error pathways and mitigation strategies (interface, procedure, training).
+* **Human-centered requirements & design guidance:** Translate findings into implementable requirements and prioritized recommendations.
+* **Evaluation reporting for stakeholders:** Concise, decision-ready outputs for product, engineering, and leadership.
+
+---
+
+### 🥽 VR & Simulation for Human Performance (Design, Training, Evaluation)
+**Do you want to test an interface, workflow, or training approach in conditions that are closer to real life—before you roll it out?**
+
+As a cognitive experimental psychologist, I have harnessed VR simulations to create **high-control, high-realism** testbeds—ideal for investigating human factors questions where field testing would be expensive or dangerous.
+
+#### Services
+* **Simulation-based prototyping:** Build VR scenarios that reflect real-world tasks, constraints, and environmental demands.
+* **Human factors evaluation in VR:** Measure human performance, errors, attention, workload, and adaptation across conditions.
+* **Technology & sensor integration:** Synchronise events in VR with data streams (e.g., ECG/EEG/EDA, eye-tracking, motion capture).
+* **Presence & experiential realism (when it matters):** Audit and optimise factors that influence user engagement, behavior, and transfer.
+* **Bespoke VR development:** From simple environments to interactive simulations tailored to your evaluation goals.
+
+---
+
+### 📊 Measurement, Experimental Design & Data Analysis (Reproducible by Default)
+**Do you have complex data but need trustworthy answers—or do you need a study designed so the results actually generalize?**
+
+I build **reproducible analytic pipelines** and design studies that support clear conclusions. This is especially useful when your data are messy, multi-modal, or high-frequency (e.g., VR telemetry, biosignal feedback).
+
+#### Services
+* **Study design for strong inference:** Hypotheses, operational definitions, sampling, power/sensitivity, and analysis plans.
+* **Statistical modeling:** Mixed models, GAMs, Bayesian hierarchical models, and (when appropriate) machine learning—aligned to the question.
+* **Physiological signal processing:** Cleaning, artifact handling, feature extraction, and interpretation for physiological (e.g., ECG/EDA/EEG) data streams.
+* **Reproducible reporting:** Automated, transparent workflows that produce publication- and stakeholder-ready reports.
+* **Visualization & dashboards:** Aesthetically pleasant publication-ready figures and interactive dashboards that clearly portray the story of your findings.
 
 :::
 
 ---
 
+## Engagements That Fit Well
+
+- **Product teams** shipping systems where usability failures are costly (health, safety, public services, enterprise tools)
+- **R&D groups** needing credible evidence for claims, funding, or regulatory conversations
+- **Training & operations teams** testing whether learning transfers to real performance
+- **Labs & startups** building or validating VR/simulation-based research and assessment tools
+
+If you’re unsure whether your project is “human factors” or “research,” that’s fine—many projects are both. We can frame the question in a way that produces actionable evidence.
+
+---
+
 ## How I Work
 
-I believe in an **"Open Science"** model of consulting. You don't just get a PDF report from me; you also get the assets, code (with clear straightforward comments explaining every programmatic step), and complete documentation, allowing you to apply your tailor-made research architecture for your future projects.
+I use an **open, reproducible** model of consulting. You don’t just receive a report—you receive the assets that make the work durable: code, documentation, and (where relevant) prototypes and data dictionaries. The goal is to leave you with a capability, not a dependency.
 
 ### 1. The Discovery Call (Free)
-We schedule a 30 minutes call to discuss your project, research question, or the challenges you are facing. And at the end of this call, I will tell you honestly, whether I am the right fit for your project.
+We schedule a **30-minute call** to understand your context, constraints, and what “success” looks like. I’ll tell you candidly whether I’m a good fit—and if not, what kind of specialist you likely need.
 
-*   *Outcome:* a decision is made about whether we are a good fit.
+*Outcome:* A clear go/no-go decision and a rough path to scope.
 
 ### 2. First Deliverable: *The Blueprint*
-I deliver a detailed blueprint that defines the scope of work. For VR projects, this includes a "grey-box" prototype video. For analysis, this includes a mock-up of the final report.
+I deliver a blueprint that defines scope, measures, and deliverables.
 
-*   *Outcome:* You know exactly what you are paying for.
+- For human factors projects: task model, evaluation plan, success criteria, and reporting format  
+- For VR projects: storyboard + “grey-box” prototype video  
+- For data work: mock-up of the final report/dashboard + analysis plan
+
+*Outcome:* You know exactly what you’re paying for, and what decisions the work will support.
 
 ### 3. Second Deliverable: *Execution & Handoff*
-I build the solution and **train your team** on how to use it. I provide clearly commented code and video walkthroughs so your team is not dependent on me forever.
+I build, evaluate, and deliver—then **train your team** to run and extend the system. You receive commented code and clear documentation (plus walkthrough videos when helpful).
 
-*   *Outcome:* A sustainable tool for your research.
+*Outcome:* A sustainable toolchain and evidence you can reuse.
 
+---
 
-### Ready to start?
+## Ready to start?
 
 [Book a Free Discovery Call](contact.qmd){.btn .btn-primary .btn-lg role="button"}
