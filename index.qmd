@@ -28,13 +28,13 @@ about:
 ---
 
 :::{#hero-heading} 
-# Christopher N Maymon, PhD
+# Christopher N. Maymon, PhD
 
 **Human Factors Consultant | Experimental Psychologist | VR & Simulation Specialist**
 
 I help organisations design technology, training, and work systems that fit real human capabilities—so they are **safer**, **easier to use**, and **more effective in the field**.
 
-I’m a cognitive psychologist and experimental methodologist with deep experience translating research into practical improvements for complex environments. My approach combines **human factors / ergonomics**, **ecologically valid experimentation**, and modern measurement—using tools like **virtual reality**, **mobile biosensors**, and **data analytics**—to understand how people perceive, decide, coordinate, and perform under real-world constraints.
+I am a cognitive experimental psychologist with a background translating research into practical improvements for complex environments. My approach combines **human factors / ergonomics**, **ecologically valid experimentation**, and modern measurement—using tools like **virtual reality**, **mobile biosensors**, and **data analytics**—to understand how people perceive, decide, coordinate, and perform under real-world constraints.
 
 I work with labs, companies, and government agencies to reduce human error, improve usability, and strengthen performance—without hype or hand-waving. When the question is “Will this system work for people *in practice*?”, I help you answer it with evidence.
 

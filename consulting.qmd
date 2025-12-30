@@ -18,7 +18,7 @@ I am currently accepting new projects for **Q1/Q2 2026**. [Contact me](contact.q
 
 ---
 
-## What I Deliver (Human Factors Outcomes)
+## What I Deliver
 
 - **Clear evidence** about what users can (and cannot) do with your system
 - **Risk-reducing recommendations** grounded in data (not opinions)
@@ -38,14 +38,14 @@ I run human factors evaluations that map real user goals onto real task demands.
 
 #### Services
 * **Task & workflow analysis:** Decompose tasks, decision points, and handoffs; identify cognitive load and bottlenecks.
-* **Usability testing (lab or field):** Plan and run studies; define success metrics; capture qualitative + behavioral measures.
+* **Usability testing:** Plan and run studies; define success metrics; capture qualitative + behavioral measures.
 * **Error analysis & risk-oriented evaluation:** Identify likely error pathways and mitigation strategies (interface, procedure, training).
 * **Human-centered requirements & design guidance:** Translate findings into implementable requirements and prioritized recommendations.
 * **Evaluation reporting for stakeholders:** Concise, decision-ready outputs for product, engineering, and leadership.
 
 ---
 
-### 🥽 VR & Simulation for Human Performance (Design, Training, Evaluation)
+### 🥽 VR & Simulation for Human Performance
 **Do you want to test an interface, workflow, or training approach in conditions that are closer to real life—before you roll it out?**
 
 As a cognitive experimental psychologist, I have harnessed VR simulations to create **high-control, high-realism** testbeds—ideal for investigating human factors questions where field testing would be expensive or dangerous.
@@ -59,7 +59,7 @@ As a cognitive experimental psychologist, I have harnessed VR simulations to cre
 
 ---
 
-### 📊 Measurement, Experimental Design & Data Analysis (Reproducible by Default)
+### 📊 Measurement, Experimental Design & Data Analysis
 **Do you have complex data but need trustworthy answers—or do you need a study designed so the results actually generalize?**
 
 I build **reproducible analytic pipelines** and design studies that support clear conclusions. This is especially useful when your data are messy, multi-modal, or high-frequency (e.g., VR telemetry, biosignal feedback).
