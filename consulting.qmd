@@ -7,7 +7,7 @@ format:
     toc-depth: 2
 ---
 
-I offer specialized **human factors / ergonomics consulting** for labs, startups, and technology teams building systems that people must use *reliably*—in the real world, under real constraints.
+I offer specialized **human factors consulting** for labs, startups, and technology teams building systems that people must use *reliably*—in the real world, under real constraints.
 
 I help you design and evaluate tools, interfaces, and workflows for **usability**, **safety**, and **human performance**. When needed, I build the technical research architecture to support strong inference: studies that are **ecologically valid**, **reproducible**, and decision-relevant.
 
