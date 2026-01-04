@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/christophermaymon/Desktop/Consultation/Website show 7494690)",
+      "Bash(git -C /Users/christophermaymon/Desktop/Consultation/Website show 0d889eb)",
+      "Bash(git -C /Users/christophermaymon/Desktop/Consultation/Website remote:*)",
+      "Bash(git -C /Users/christophermaymon/Desktop/Consultation/Website status)",
+      "Bash(git -C /Users/christophermaymon/Desktop/Consultation/Website ls-files:*)",
+      "Bash(cat:*)",
+      "Bash(git -C /Users/christophermaymon/Desktop/Consultation/Website log --all --oneline -- \"CNAME\")"
+    ]
+  }
+}

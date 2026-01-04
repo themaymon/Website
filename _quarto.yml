@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site_
+  output-dir: docs
   resources: 
     - "papers/"
 
