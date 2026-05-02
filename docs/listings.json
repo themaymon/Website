@@ -1,12 +1,12 @@
 [
   {
-    "listing": "/publications.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/power-of-tides/index.html"
     ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   }
 ]

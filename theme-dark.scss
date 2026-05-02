@@ -1,0 +1,470 @@
+/*-- scss:defaults --*/
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Silkscreen:wght@400;700&display=swap');
+
+// Fonts
+$font-family-sans-serif: 'Space Mono', monospace;
+$headings-font-family: 'Syne', sans-serif;
+
+// Dark palette
+$body-bg: #0a0a14;
+$body-color: #e0e0e8;
+$primary: #7c4dff;
+$link-color: #00e5ff;
+$link-hover-color: lighten(#00e5ff, 12%);
+
+// Bootstrap overrides
+$navbar-dark-color: rgba(#e0e0e8, 0.85);
+$navbar-dark-hover-color: #00e5ff;
+$navbar-dark-brand-color: #ffffff;
+$card-bg: rgba(#16162a, 0.85);
+$card-border-color: rgba(#7c4dff, 0.25);
+$input-bg: #12121f;
+$input-color: #e0e0e8;
+$input-border-color: rgba(#7c4dff, 0.35);
+$input-focus-border-color: #00e5ff;
+$code-color: #00e5ff;
+
+/*-- scss:rules --*/
+
+// ── Custom Properties ──
+:root {
+  --accent-purple: #7c4dff;
+  --accent-cyan: #00e5ff;
+  --glow-purple: 0 0 20px rgba(124, 77, 255, 0.4);
+  --glow-cyan: 0 0 20px rgba(0, 229, 255, 0.4);
+  --card-bg: rgba(22, 22, 42, 0.85);
+  --card-hover-border: rgba(124, 77, 255, 0.6);
+}
+
+// ── Global ──
+body {
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+// ── Heading Glow Pulse ──
+h2 {
+  animation: headingGlow 4s ease-in-out infinite;
+}
+
+@keyframes headingGlow {
+  0%, 100% { text-shadow: 0 0 8px rgba(0, 229, 255, 0.15); }
+  50%      { text-shadow: 0 0 20px rgba(0, 229, 255, 0.35); }
+}
+
+// ── Blinking Cursor on Hero h1 ──
+#hero-heading h1::after {
+  content: '|';
+  color: var(--accent-cyan);
+  font-weight: 400;
+  animation: blinkCursor 1s step-end infinite;
+  margin-left: 4px;
+}
+
+@keyframes blinkCursor {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+// ── Navbar ──
+.navbar {
+  background-color: rgba(10, 10, 20, 0.85) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(124, 77, 255, 0.2);
+}
+
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  color: #ffffff !important;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.nav-link {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: rgba(224, 224, 232, 0.75) !important;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent-cyan) !important;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.3);
+}
+
+// ── Buttons ──
+.btn-primary {
+  font-family: 'Silkscreen', cursive;
+  background-color: var(--accent-purple);
+  border-color: var(--accent-purple);
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 0.6rem 1.4rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+  background-color: lighten(#7c4dff, 8%);
+  border-color: lighten(#7c4dff, 8%);
+  box-shadow: var(--glow-purple);
+  transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+  font-family: 'Silkscreen', cursive;
+  color: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+  border-radius: 6px;
+  padding: 0.6rem 1.4rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(0, 229, 255, 0.1);
+  color: #ffffff;
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-2px);
+}
+
+.btn-outline-secondary {
+  font-family: 'Silkscreen', cursive;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
+}
+
+// ── Service Cards ──
+.service-card {
+  background: var(--card-bg);
+  border: 1px solid rgba(124, 77, 255, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--card-hover-border);
+  box-shadow: var(--glow-purple), 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.service-card h3 {
+  color: var(--accent-cyan);
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.service-card strong {
+  color: #ffffff;
+  display: block;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.service-card ul {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(124, 77, 255, 0.2);
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.05);
+}
+
+// ── Grid Cards (g-col) ──
+.g-col-md-4:not(.service-card),
+.g-col-md-6:not(.service-card) {
+  background-color: var(--card-bg);
+  border: 1px solid rgba(124, 77, 255, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.g-col-md-4:not(.service-card):hover,
+.g-col-md-6:not(.service-card):hover {
+  transform: translateY(-4px);
+  border-color: var(--card-hover-border);
+  box-shadow: var(--glow-purple);
+}
+
+.g-col-md-4:not(.service-card) h3,
+.g-col-md-6:not(.service-card) h3 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--accent-cyan);
+}
+
+// ── Hero Section ──
+#hero-heading {
+  padding: 2rem 0;
+}
+
+.lead-subtitle {
+  font-size: 1.25rem;
+  color: rgba(224, 224, 232, 0.65);
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+// ── Profile Image ──
+.about-image {
+  object-position: center 20%;
+  border: 2px solid rgba(124, 77, 255, 0.4);
+  box-shadow: 0 0 30px rgba(124, 77, 255, 0.2);
+}
+
+// ── Social Links ──
+.about-links a {
+  color: var(--accent-cyan) !important;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.about-links a:hover {
+  transform: scale(1.1);
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.4);
+}
+
+// ── Callouts ──
+.callout {
+  background-color: var(--card-bg);
+  border-left: 4px solid var(--accent-purple);
+  border-radius: 6px;
+}
+
+.callout-note {
+  border-left-color: var(--accent-cyan);
+}
+
+// ── Tabs (panel-tabset) ──
+.panel-tabset .nav-link {
+  font-family: 'Silkscreen', cursive;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.panel-tabset .nav-link.active {
+  background-color: var(--accent-purple) !important;
+  color: #ffffff !important;
+  border-color: var(--accent-purple) !important;
+}
+
+// ── Code Blocks ──
+pre {
+  background-color: #0d0d1a;
+  border: 1px solid rgba(124, 77, 255, 0.2);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+code {
+  background-color: rgba(124, 77, 255, 0.15);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 85%;
+}
+
+// ── Form Inputs ──
+.form-control {
+  background-color: $input-bg;
+  border-color: $input-border-color;
+  color: $input-color;
+  border-radius: 6px;
+
+  &:focus {
+    border-color: var(--accent-cyan);
+    box-shadow: 0 0 8px rgba(0, 229, 255, 0.2);
+    background-color: $input-bg;
+    color: $input-color;
+  }
+}
+
+// ── Listings (publications) ──
+.quarto-listing {
+  .listing-title {
+    color: var(--accent-cyan);
+  }
+
+  .listing-category .badge {
+    font-family: 'Silkscreen', cursive;
+    font-size: 0.7rem;
+    background-color: rgba(124, 77, 255, 0.2);
+    color: var(--accent-cyan);
+    border: 1px solid rgba(124, 77, 255, 0.3);
+  }
+}
+
+// ── Trestles Template ──
+.about-entity {
+  background-color: transparent;
+}
+
+// ── Button Group ──
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.button-group .btn {
+  margin: 0;
+}
+
+// ── Floating Pixels ──
+.floating-pixel {
+  position: fixed;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.6;
+  animation: pixelDrift 12s ease-in-out infinite alternate;
+}
+
+@keyframes pixelDrift {
+  0%   { transform: translate(0, 0); }
+  25%  { transform: translate(30px, -40px); }
+  50%  { transform: translate(-20px, 20px); }
+  75%  { transform: translate(40px, 30px); }
+  100% { transform: translate(-10px, -30px); }
+}
+
+// ── Scroll Reveal ──
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// ── Accessibility: Reduced Motion ──
+@media (prefers-reduced-motion: reduce) {
+  h2 {
+    animation: none;
+  }
+
+  #hero-heading h1::after {
+    animation: none;
+    opacity: 1;
+  }
+
+  .floating-pixel {
+    animation: none;
+    display: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+// ── Responsive ──
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  .service-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-links .about-link img {
+    height: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .floating-pixel {
+    display: none;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .button-group .btn {
+    width: 100%;
+  }
+
+  .service-image {
+    height: 180px;
+  }
+}

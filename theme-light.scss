@@ -1,0 +1,450 @@
+/*-- scss:defaults --*/
+
+// Google Fonts (shared with dark theme)
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Silkscreen:wght@400;700&display=swap');
+
+// Fonts
+$font-family-sans-serif: 'Space Mono', monospace;
+$headings-font-family: 'Syne', sans-serif;
+
+// Light palette
+$body-bg: #f8f7ff;
+$body-color: #1a1a2e;
+$primary: #6200ea;
+$link-color: #5c2dbd;
+$link-hover-color: darken(#5c2dbd, 10%);
+
+// Bootstrap overrides
+$navbar-light-color: rgba(#1a1a2e, 0.7);
+$navbar-light-hover-color: #6200ea;
+$navbar-light-brand-color: #1a1a2e;
+$card-bg: #ffffff;
+$card-border-color: rgba(#6200ea, 0.15);
+$input-bg: #ffffff;
+$input-color: #1a1a2e;
+$input-border-color: rgba(#6200ea, 0.25);
+$input-focus-border-color: #6200ea;
+$code-color: #6200ea;
+
+/*-- scss:rules --*/
+
+// ── Custom Properties ──
+:root {
+  --accent-purple: #6200ea;
+  --accent-cyan: #5c2dbd;
+  --glow-purple: 0 0 12px rgba(98, 0, 234, 0.15);
+  --card-bg: #ffffff;
+  --card-hover-border: rgba(98, 0, 234, 0.4);
+}
+
+// ── Global ──
+body {
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #1a1a2e;
+}
+
+// No heading glow in light mode
+
+// ── Blinking Cursor on Hero h1 ──
+#hero-heading h1::after {
+  content: '|';
+  color: var(--accent-purple);
+  font-weight: 400;
+  animation: blinkCursor 1s step-end infinite;
+  margin-left: 4px;
+}
+
+@keyframes blinkCursor {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+// ── Navbar ──
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid rgba(98, 0, 234, 0.1);
+}
+
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  color: #1a1a2e !important;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.nav-link {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: rgba(26, 26, 46, 0.6) !important;
+  transition: color 0.25s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent-purple) !important;
+}
+
+// ── Buttons ──
+.btn-primary {
+  font-family: 'Silkscreen', cursive;
+  background-color: var(--accent-purple);
+  border-color: var(--accent-purple);
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 0.6rem 1.4rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+  background-color: darken(#6200ea, 8%);
+  border-color: darken(#6200ea, 8%);
+  box-shadow: var(--glow-purple);
+  transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+  font-family: 'Silkscreen', cursive;
+  color: var(--accent-purple);
+  border-color: var(--accent-purple);
+  border-radius: 6px;
+  padding: 0.6rem 1.4rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(98, 0, 234, 0.08);
+  color: darken(#6200ea, 10%);
+  border-color: var(--accent-purple);
+  box-shadow: var(--glow-purple);
+  transform: translateY(-2px);
+}
+
+.btn-outline-secondary {
+  font-family: 'Silkscreen', cursive;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: all 0.25s ease;
+}
+
+// ── Service Cards ──
+.service-card {
+  background: var(--card-bg);
+  border: 1px solid rgba(98, 0, 234, 0.12);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--card-hover-border);
+  box-shadow: 0 12px 24px rgba(98, 0, 234, 0.1);
+}
+
+.service-card h3 {
+  color: var(--accent-purple);
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.service-card strong {
+  color: #1a1a2e;
+  display: block;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.service-card ul {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(98, 0, 234, 0.1);
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.05);
+}
+
+// ── Grid Cards ──
+.g-col-md-4:not(.service-card),
+.g-col-md-6:not(.service-card) {
+  background-color: var(--card-bg);
+  border: 1px solid rgba(98, 0, 234, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.g-col-md-4:not(.service-card):hover,
+.g-col-md-6:not(.service-card):hover {
+  transform: translateY(-4px);
+  border-color: var(--card-hover-border);
+  box-shadow: 0 8px 24px rgba(98, 0, 234, 0.08);
+}
+
+.g-col-md-4:not(.service-card) h3,
+.g-col-md-6:not(.service-card) h3 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--accent-purple);
+}
+
+// ── Hero Section ──
+#hero-heading {
+  padding: 2rem 0;
+}
+
+.lead-subtitle {
+  font-size: 1.25rem;
+  color: rgba(26, 26, 46, 0.55);
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+// ── Profile Image ──
+.about-image {
+  object-position: center 20%;
+  border: 2px solid rgba(98, 0, 234, 0.2);
+}
+
+// ── Social Links ──
+.about-links a {
+  color: var(--accent-purple) !important;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.about-links a:hover {
+  transform: scale(1.1);
+  color: darken(#6200ea, 15%) !important;
+}
+
+// ── Callouts ──
+.callout {
+  background-color: #ffffff;
+  border-left: 4px solid var(--accent-purple);
+  border-radius: 6px;
+}
+
+.callout-note {
+  border-left-color: var(--accent-purple);
+}
+
+// ── Tabs ──
+.panel-tabset .nav-link {
+  font-family: 'Silkscreen', cursive;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.panel-tabset .nav-link.active {
+  background-color: var(--accent-purple) !important;
+  color: #ffffff !important;
+  border-color: var(--accent-purple) !important;
+}
+
+// ── Code Blocks ──
+pre {
+  background-color: #f0eef8;
+  border: 1px solid rgba(98, 0, 234, 0.1);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+code {
+  background-color: rgba(98, 0, 234, 0.08);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 85%;
+}
+
+// ── Form Inputs ──
+.form-control {
+  background-color: $input-bg;
+  border-color: $input-border-color;
+  color: $input-color;
+  border-radius: 6px;
+
+  &:focus {
+    border-color: var(--accent-purple);
+    box-shadow: 0 0 8px rgba(98, 0, 234, 0.12);
+  }
+}
+
+// ── Listings ──
+.quarto-listing {
+  .listing-title {
+    color: var(--accent-purple);
+  }
+
+  .listing-category .badge {
+    font-family: 'Silkscreen', cursive;
+    font-size: 0.7rem;
+    background-color: rgba(98, 0, 234, 0.08);
+    color: var(--accent-purple);
+    border: 1px solid rgba(98, 0, 234, 0.15);
+  }
+}
+
+// ── Trestles Template ──
+.about-entity {
+  background-color: transparent;
+}
+
+// ── Button Group ──
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.button-group .btn {
+  margin: 0;
+}
+
+// ── Floating Pixels (very subtle in light mode) ──
+.floating-pixel {
+  position: fixed;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.3;
+  animation: pixelDrift 12s ease-in-out infinite alternate;
+}
+
+@keyframes pixelDrift {
+  0%   { transform: translate(0, 0); }
+  25%  { transform: translate(30px, -40px); }
+  50%  { transform: translate(-20px, 20px); }
+  75%  { transform: translate(40px, 30px); }
+  100% { transform: translate(-10px, -30px); }
+}
+
+// ── Scroll Reveal ──
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// ── Accessibility: Reduced Motion ──
+@media (prefers-reduced-motion: reduce) {
+  #hero-heading h1::after {
+    animation: none;
+    opacity: 1;
+  }
+
+  .floating-pixel {
+    animation: none;
+    display: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+// ── Responsive ──
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  .service-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-links .about-link img {
+    height: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .floating-pixel {
+    display: none;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .button-group .btn {
+    width: 100%;
+  }
+
+  .service-image {
+    height: 180px;
+  }
+}

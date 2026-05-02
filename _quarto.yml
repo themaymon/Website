@@ -25,9 +25,11 @@ website:
 
 format:
   html:
-    theme: litera
-    css: styles.css
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
     toc: true
+    include-after-body: effects.js
 
 
 
