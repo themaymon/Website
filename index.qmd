@@ -43,7 +43,7 @@ I work with labs, companies, and government agencies to reduce human error, impr
 I provide end-to-end [consulting services](consulting.qmd): from problem framing and study design to data collection, analysis, and clear recommendations your team can implement.
 
 [Hire Me for Consulting](contact.qmd){.btn .btn-primary .btn-lg role="button"} [View Publications](publications.qmd){.btn .btn-outline-primary .btn-lg role="button"} 
-[<i class="bi bi-file-earmark-pdf"></i> Download Academic CV](cv/Christopher_Maymon_CV_2025.pdf){.btn .btn-outline-primary .btn-lg role="button"}
+[<i class="bi bi-file-earmark-word"></i> Download Academic CV](cv/Christopher_Maymon_Academic_CV_2026.docx){.btn .btn-outline-primary .btn-lg role="button"}
 
 ---
 :::
