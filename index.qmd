@@ -32,15 +32,13 @@ about:
 :::{#hero-heading} 
 # Christopher N. Maymon, PhD
 
-**Human Factors Consultant | Experimental Psychologist | VR & Simulation Specialist**
+**Cognitive Psychologist | Research Consultant | VR & Simulation Specialist**
 
-I help organisations design technology, training, and work systems that fit real human capabilities—so they are **safer**, **easier to use**, and **more effective in the field**.
+I am a cognitive experimental psychologist available for external consultation. I help laboratories, companies, and government agencies understand how people perceive, decide, and perform—and I translate that understanding into **systems, workflows, and designs that actually work for humans**.
 
-I am a cognitive experimental psychologist with a background translating research into practical improvements for complex environments. My approach combines **human factors / ergonomics**, **ecologically valid experimentation**, and modern measurement—using tools like **virtual reality**, **mobile biosensors**, and **data analytics**—to understand how people perceive, decide, coordinate, and perform under real-world constraints.
+My expertise spans **human factors and ergonomics**, **ecologically valid experimentation**, **VR and simulation science**, and the emerging challenge of **human-AI hybrid workflow design**. I use tools like **virtual reality**, **mobile biosensors**, and **data analytics** to deliver evidence that holds up under scrutiny—not opinions.
 
-I work with labs, companies, and government agencies to reduce human error, improve usability, and strengthen performance—without hype or hand-waving. When the question is “Will this system work for people *in practice*?”, I help you answer it with evidence.
-
-I provide end-to-end [consulting services](consulting.qmd): from problem framing and study design to data collection, analysis, and clear recommendations your team can implement.
+Whether you need a usability evaluation, a controlled experiment, a VR-based training prototype, or a strategy for integrating agentic AI into your team's workflow without losing what makes human judgement irreplaceable—I provide end-to-end [consulting services](consulting.qmd): from problem framing and study design to data collection, analysis, and clear recommendations your team can implement.
 
 [Hire Me for Consulting](contact.qmd){.btn .btn-primary .btn-lg role="button"} [View Publications](publications.qmd){.btn .btn-outline-primary .btn-lg role="button"} 
 [<i class="bi bi-file-earmark-word"></i> Download Academic CV](cv/Christopher_Maymon_Academic_CV_2026.docx){.btn .btn-outline-primary .btn-lg role="button"}
@@ -59,25 +57,32 @@ I provide end-to-end [consulting services](consulting.qmd): from problem framing
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6}
 ### 🧠 Human Factors & Usability Evaluation
 Are users struggling, making errors, or developing workarounds? I evaluate **human–system interaction** to identify where interfaces, procedures, and environments create friction—then I deliver actionable fixes.
 
 Typical work includes task analysis, workflow mapping, usability testing, cognitive walkthroughs, error analysis, and evidence-based recommendations for safer and more intuitive systems.
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6}
 ### 🥽 VR & Simulation for Human Performance
 I build and use **high-fidelity VR simulations** that let teams test designs and undergo training in realistic conditions—before products are deployed at scale.
 
 I support organisations that want to (a) establish VR capability, (b) prototype and evaluate procedures or interfaces, or (c) develop **bespoke simulations** for human factors research and performance training.
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6}
 ### 📊 Experimental Design, Measurement & Data Analysis
 If you need answers that hold up under scrutiny, I design studies that are **reproducible**, interpretable, and aligned to operational decisions. I build measurement plans, choose appropriate statistical models, and communicate results clearly to technical and non-technical stakeholders.
 
 This is ideal for A/B tests, field trials, intervention evaluations, and any situation where you need credible evidence—not just opinions.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🤖 Human-AI Hybrid Workflow Design
+AI is transforming how teams work—but the hardest problem isn't the technology, it's designing workflows where **agentic AI systems and human judgement genuinely complement each other**.
+
+I help laboratories and companies architect hybrid workflows that leverage the speed, scalability, and consistency of AI agents while preserving the essential role of **human intuition, creativity, and ethical reasoning** at every level of distributed teamwork. The goal is augmentation with dignity—not replacement.
 :::
 
 :::
