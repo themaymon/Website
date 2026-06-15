@@ -1,6 +1,6 @@
 ---
 title: "Research"
-subtitle: "Ecologically valid simulation science."
+subtitle: "Ecologically valid simulation science"
 format:
   html:
     toc: true

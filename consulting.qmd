@@ -13,7 +13,7 @@ I help you design and evaluate tools, interfaces, and workflows for **usability*
 
 ::: {.callout-note appearance="simple"}
 ## Availability
-I am currently accepting new projects for **Q1/Q2 2026**. [Contact me](contact.qmd) to discuss fit, scope, and timeline.
+I am currently accepting new projects for **Q3/Q4 2026**. [Contact me](contact.qmd) to discuss fit, scope, and timeline.
 :::
 
 ---

@@ -32,11 +32,13 @@ about:
 :::{#hero-heading} 
 # Christopher N. Maymon, PhD
 
-**Cognitive Psychologist | Research Consultant | VR & Simulation Specialist**
+**Cognitive Psychologist | Experimentalist | Technologist**
 
-I am a cognitive experimental psychologist available for external consultation. I help laboratories, companies, and government agencies understand how people perceive, decide, and perform—and I translate that understanding into **systems, workflows, and designs that actually work for humans**.
+I am a Cognitive Experimental Psychologist from Te Whanganui-a-Tara, Aotearoa | Wellington, New Zealand. 
 
-My expertise spans **human factors and ergonomics**, **ecologically valid experimentation**, **VR and simulation science**, and the emerging challenge of **human-AI hybrid workflow design**. I use tools like **virtual reality**, **mobile biosensors**, and **data analytics** to deliver evidence that holds up under scrutiny—not opinions.
+I conduct research at the intersection of cognition and emotion. The experiments I design investigate such questions as: "Is our cognitive control (e.g., inhibition, attentional control, planning) enhanced or hindered when we experience fear?" and "Can a mind construct human-like concepts of emotions if that mind has no physical body?"
+
+**human factors and ergonomics**, **ecologically valid experimentation**, **VR and simulation science**, and the emerging challenge of **human-AI hybrid workflow design**. I use tools like **virtual reality**, **mobile biosensors**, and **data analytics** to deliver evidence that holds up under scrutiny—not opinions.
 
 Whether you need a usability evaluation, a controlled experiment, a VR-based training prototype, or a strategy for integrating agentic AI into your team's workflow without losing what makes human judgement irreplaceable—I provide end-to-end [consulting services](consulting.qmd): from problem framing and study design to data collection, analysis, and clear recommendations your team can implement.
 

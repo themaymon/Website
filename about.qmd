@@ -24,22 +24,27 @@ about:
       href: https://www.researchgate.net/profile/Christopher-Maymon-3?ev=hdr_xprf
 ---
 
-## My Story
+## Science is always a story about people
+
+My life began in 1991, in the city of Warwick, Rhode Island. I am the first-born child to working class parents. When I was two, I would be joined by my sister, and five years later, my sister and I would be persuaded to accept the arrival of our brother.
+
+My earliest memories place me aboard my maternal grandfather's sailboat. As a toddler, I learned how to tie bow-lines, bait lures for bass, and read the channel markers throughout Greenwich Bay. But amongst these practical lessons, what my grandfather taught me was how to deduce. He was a man who had fastened together a life from the products of his own hands and grit. He was a public school science teacher, and he ensured that my earliest notions about the world were always accompanied by empirical questions. 
+
+For six years, we moved away from the familiarity of Rhode Island's coastal inlets, north to the ancient forests of New Hampshire. In these years, I was a free-range child, spending my days wandering with my dog through forgotten logging trails, crossing nameless rivers, buildiing caches and shelters, some of which I suspect survives to this very day. But it was in those woods that I first began to appreciate the company of my imagination. This layer of bespoke reality I could drape across my surroundings became not only a platform for exploration, but thanks to the questions my grandfather had given me, also a subject of scientific curiosity. And so began my journey exploring the mysteries of the mind. 
+
+## The unfolding shape of one's career
+
+The story of my professional training a decade, working in several disciplines across psychology. 
+
+In 2013, I graduated from Loyola University of Maryland with a BA in Psychology. I was then employed at the Pediatric Feeding Disorders Unit at The Kennedy Krieger Institute, where I was trained to implement, teach, and refine treatment protocols using principles of Applied Behaviour Analysis. 
+
+In 2015, I moved to Aotearoa to pursue a PhD in Cognitive Developmental Psychology at Te Herenga Waka | Victoria University of Wellington. In my doctoral research, I developed an ecologically valid behavioural test capable of disentangling competing theoretical accounts about the cognitive mechanisms that allow humans to track the content of other people's minds. 
+
 ### The Experimental Psychology Trade-Off
 
-My journey into Virtual Reality (VR) began with a frustration that every experimental psychologist eventually faces: **The trade-off between experimental control and ecological validity.**
+Following graduation, my research interests evolved again. I started to focus on how experimental psychology has confronted *ecological validity* (i.e., the extent to which laboratory findings can inform us about phenomena that occurs outside the laboratory). I became increasingly skeptical of what was historically considered an inescapable trade-off: that it is not possible to have complete control over experimental conditions without stripping those conditiosn of their verisimilitude (i.e., the extent to which laboratory conditions replicate conditions of the real-world). My central thesis was that that this apparent trade-off was not a *logical* incompatibility, but simply a *practical* challenge, wanting for a technological solution. I further believed that the technological solution had just come to market, in the form of the virtual reality headset. From 2020 to 2023, I speerheaded the development of a virtual reality laboratory for the advancement of a more *ecologically valid experimental psychology*. 
 
-During my PhD at Victoria University of Wellington, I was investigating *Theory of Mind*—how we understand the intentions of others. Like many before me, I found myself stuck between two imperfect choices. I could run highly controlled experiments on a computer screen (which lacked *verisimilitude*: the messy reality of actual environments), or I could run field studies (which are more *ecologically* valid but are impossible to control scientifically).
-
-Generally speaking This disconnect has seemed intractable. We were studying human behavior by removing the "human" and the "behavior" from the equation.
-
-### An "Accidental" Pivot
-
-By complete chance, I stumbled upon a basic VR setup being tested in our department. I realized almost immediately that this technology wasn't just a gimmick for gamers; it was the solution to the Trade-Off.
-
-VR allowed me to place participants in "real" situations—standing at the edge of a cliff, walking a plank, or interacting with a virtual agent—while maintaining millisecond-level control over every photon of light they saw. 
-
-I pivoted my research focus entirely. I taught myself Unity and C#, not because I wanted to be a developer, but because I needed better tools to answer scientific questions. This work culminated in my research on **Presence**—understanding not just *if* people feel fear in VR, but *why* they treat virtual threats as real.
+In 2020, I 
 
 ### Open Science & Reproducibility
 
